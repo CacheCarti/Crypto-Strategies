@@ -1,0 +1,22 @@
+{
+ "key": "fng_contrarian_btc_v5",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 5.0,
+ "stages_passed": 1,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -1180.5,
+  "win_rate": 0.494,
+  "sharpe": -1.289,
+  "max_drawdown_bps": 1134.66,
+  "total_trades": 83
+ },
+ "in_sample": {
+  "total_return_bps": -1959.19,
+  "win_rate": 0.4634,
+  "sharpe": -0.9676,
+  "total_trades": 205
+ }
+}

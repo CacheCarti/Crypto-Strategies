@@ -1,0 +1,9 @@
+{
+ "key": "vol_gate_mom_eth_v6",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 5.0,
+ "stages_passed": 1,
+ "failed_stage": null,
+ "reason": null
+}

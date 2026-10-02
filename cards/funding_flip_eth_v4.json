@@ -1,0 +1,22 @@
+{
+ "key": "funding_flip_eth_v4",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 5.0,
+ "stages_passed": 1,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": 144.39,
+  "win_rate": 0.5263,
+  "sharpe": 0.3763,
+  "max_drawdown_bps": 125.1,
+  "total_trades": 19
+ },
+ "in_sample": {
+  "total_return_bps": -717.56,
+  "win_rate": 0.4348,
+  "sharpe": -0.8222,
+  "total_trades": 69
+ }
+}

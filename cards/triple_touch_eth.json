@@ -1,0 +1,22 @@
+{
+ "key": "triple_touch_eth",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -412.52,
+  "win_rate": 0.0,
+  "sharpe": -15.3881,
+  "max_drawdown_bps": 345.58,
+  "total_trades": 6
+ },
+ "in_sample": {
+  "total_return_bps": -449.22,
+  "win_rate": 0.3182,
+  "sharpe": -1.3407,
+  "total_trades": 22
+ }
+}

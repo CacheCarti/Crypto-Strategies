@@ -1,0 +1,9 @@
+{
+ "key": "scalp_range_sol_v4",
+ "domain": "sol_usdc_scalp",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null
+}

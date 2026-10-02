@@ -1,0 +1,9 @@
+{
+ "key": "scalp_rsi7_btc_v2",
+ "domain": "btc_usdc_scalp",
+ "status": "rejected",
+ "validation_score": null,
+ "stages_passed": null,
+ "failed_stage": "static_check",
+ "reason": null
+}

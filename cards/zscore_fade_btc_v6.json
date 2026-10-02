@@ -1,0 +1,9 @@
+{
+ "key": "zscore_fade_btc_v6",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null
+}

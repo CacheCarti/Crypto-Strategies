@@ -1,0 +1,9 @@
+{
+ "key": "funding_squeeze_btc_v3",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 5.0,
+ "stages_passed": 1,
+ "failed_stage": null,
+ "reason": null
+}

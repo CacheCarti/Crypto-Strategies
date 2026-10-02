@@ -1,0 +1,22 @@
+{
+ "key": "confluence_long_eth_v3",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": 159.59,
+  "win_rate": 0.4839,
+  "sharpe": 0.3345,
+  "max_drawdown_bps": 324.39,
+  "total_trades": 31
+ },
+ "in_sample": {
+  "total_return_bps": -1106.44,
+  "win_rate": 0.4324,
+  "sharpe": -0.6115,
+  "total_trades": 148
+ }
+}

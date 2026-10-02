@@ -1,0 +1,22 @@
+{
+ "key": "monday_drift_sol_v9",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -208.39,
+  "win_rate": 0.4286,
+  "sharpe": -0.4592,
+  "max_drawdown_bps": 296.89,
+  "total_trades": 7
+ },
+ "in_sample": {
+  "total_return_bps": 51.41,
+  "win_rate": 0.3571,
+  "sharpe": 0.0388,
+  "total_trades": 14
+ }
+}

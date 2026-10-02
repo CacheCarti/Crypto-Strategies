@@ -1,0 +1,22 @@
+{
+ "key": "scalp_volburst_btc_v9",
+ "domain": "btc_usdc_scalp",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -240.12,
+  "win_rate": 0.2162,
+  "sharpe": -1.7032,
+  "max_drawdown_bps": 254.38,
+  "total_trades": 37
+ },
+ "in_sample": {
+  "total_return_bps": -1184.07,
+  "win_rate": 0.3444,
+  "sharpe": -4.4653,
+  "total_trades": 90
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "key": "funding_fade_eth_v9",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 5.0,
+ "stages_passed": 1,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": 582.47,
+  "win_rate": 0.65,
+  "sharpe": 1.2495,
+  "max_drawdown_bps": 113.4,
+  "total_trades": 20
+ },
+ "in_sample": {
+  "total_return_bps": -1253.38,
+  "win_rate": 0.4306,
+  "sharpe": -0.8348,
+  "total_trades": 144
+ }
+}

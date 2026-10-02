@@ -1,0 +1,22 @@
+{
+ "key": "btc_lead_sol_v7",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -431.85,
+  "win_rate": 0.0,
+  "sharpe": -6.9645,
+  "max_drawdown_bps": 317.27,
+  "total_trades": 3
+ },
+ "in_sample": {
+  "total_return_bps": -542.8,
+  "win_rate": 0.25,
+  "sharpe": -1.9344,
+  "total_trades": 8
+ }
+}

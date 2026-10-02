@@ -1,0 +1,22 @@
+{
+ "key": "scalp_stoch_eth_v9",
+ "domain": "eth_usdc_scalp",
+ "status": "rejected",
+ "validation_score": 5.0,
+ "stages_passed": 1,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": null,
+  "win_rate": null,
+  "sharpe": null,
+  "max_drawdown_bps": null,
+  "total_trades": null
+ },
+ "in_sample": {
+  "total_return_bps": -1790.15,
+  "win_rate": 0.4194,
+  "sharpe": -2.9703,
+  "total_trades": 155
+ }
+}

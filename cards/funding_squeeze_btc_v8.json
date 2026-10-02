@@ -1,0 +1,22 @@
+{
+ "key": "funding_squeeze_btc_v8",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -389.65,
+  "win_rate": 0.0,
+  "sharpe": -3.0553,
+  "max_drawdown_bps": 289.59,
+  "total_trades": 5
+ },
+ "in_sample": {
+  "total_return_bps": -518.23,
+  "win_rate": 0.3913,
+  "sharpe": -1.1177,
+  "total_trades": 23
+ }
+}

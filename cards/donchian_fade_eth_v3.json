@@ -1,0 +1,22 @@
+{
+ "key": "donchian_fade_eth_v3",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -909.12,
+  "win_rate": 0.3947,
+  "sharpe": -1.4118,
+  "max_drawdown_bps": 899.57,
+  "total_trades": 76
+ },
+ "in_sample": {
+  "total_return_bps": -684.25,
+  "win_rate": 0.4359,
+  "sharpe": -0.5467,
+  "total_trades": 195
+ }
+}

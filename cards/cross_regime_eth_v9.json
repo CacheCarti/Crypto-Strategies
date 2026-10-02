@@ -1,0 +1,22 @@
+{
+ "key": "cross_regime_eth_v9",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -319.3,
+  "win_rate": 0.3333,
+  "sharpe": -1.2478,
+  "max_drawdown_bps": 261.72,
+  "total_trades": 6
+ },
+ "in_sample": {
+  "total_return_bps": 138.93,
+  "win_rate": 0.3333,
+  "sharpe": 0.3533,
+  "total_trades": 3
+ }
+}

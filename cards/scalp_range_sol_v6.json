@@ -1,0 +1,22 @@
+{
+ "key": "scalp_range_sol_v6",
+ "domain": "sol_usdc_scalp",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -173.51,
+  "win_rate": 0.2143,
+  "sharpe": -2.6122,
+  "max_drawdown_bps": 161.74,
+  "total_trades": 14
+ },
+ "in_sample": {
+  "total_return_bps": -135.6,
+  "win_rate": 0.3953,
+  "sharpe": -1.1066,
+  "total_trades": 43
+ }
+}

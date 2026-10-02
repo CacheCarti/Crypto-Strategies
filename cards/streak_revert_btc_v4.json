@@ -1,0 +1,22 @@
+{
+ "key": "streak_revert_btc_v4",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -577.0,
+  "win_rate": 0.4324,
+  "sharpe": -0.9999,
+  "max_drawdown_bps": 679.52,
+  "total_trades": 74
+ },
+ "in_sample": {
+  "total_return_bps": -1677.69,
+  "win_rate": 0.4783,
+  "sharpe": -1.776,
+  "total_trades": 184
+ }
+}

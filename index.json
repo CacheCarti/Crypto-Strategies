@@ -1,0 +1,2844 @@
+[
+ {
+  "key": "fng_streak_sol_v4",
+  "domain": "sol_usdc",
+  "oos_return_bps": 998.09,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_fade_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": 974.3,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_fade_eth_v7",
+  "domain": "eth_usdc",
+  "oos_return_bps": 640.47,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_fade_eth_v9",
+  "domain": "eth_usdc",
+  "oos_return_bps": 582.47,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "atr_exp_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": 436.77,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_fade_eth_v6",
+  "domain": "eth_usdc",
+  "oos_return_bps": 346.58,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi_div_eth_v3",
+  "domain": "eth_usdc",
+  "oos_return_bps": 249.56,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_fade_eth_v2",
+  "domain": "eth_usdc",
+  "oos_return_bps": 241.75,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "lowvol_mom_btc_v6",
+  "domain": "btc_usdc",
+  "oos_return_bps": 234.19,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_ema513_eth_v5",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": 194.77,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_ema513_eth_v6",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": 194.77,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "liq_cascade_sol",
+  "domain": "sol_usdc",
+  "oos_return_bps": 171.43,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "us_session_mom_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": 160.82,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "confluence_long_eth_v3",
+  "domain": "eth_usdc",
+  "oos_return_bps": 159.59,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": 159.31,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_flip_eth_v4",
+  "domain": "eth_usdc",
+  "oos_return_bps": 144.39,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_flip_eth_v3",
+  "domain": "eth_usdc",
+  "oos_return_bps": 140.17,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_ema513_eth_v3",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": 113.29,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "triple_touch_eth_v6",
+  "domain": "eth_usdc",
+  "oos_return_bps": 112.5,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "confluence_long_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": 87.8,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "monday_drift_sol_v2",
+  "domain": "sol_usdc",
+  "oos_return_bps": 75.72,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_sol_v5",
+  "domain": "sol_usdc",
+  "oos_return_bps": 47.32,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "liq_cascade_sol_v4",
+  "domain": "sol_usdc",
+  "oos_return_bps": 45.13,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "calm_grind_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": 42.61,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_funding_eth_v8",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": 7.12,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_funding_eth_v3",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": -16.77,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_funding_eth_v4",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": -18.51,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_volburst_btc",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": -20.13,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_sol_v4",
+  "domain": "sol_usdc",
+  "oos_return_bps": -26.37,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "liq_cascade_sol_v5",
+  "domain": "sol_usdc",
+  "oos_return_bps": -33.85,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "sol_eth_lead_sol_v6",
+  "domain": "sol_usdc",
+  "oos_return_bps": -35.93,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_btc_v5",
+  "domain": "btc_usdc",
+  "oos_return_bps": -37.96,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "confluence_long_eth_v7",
+  "domain": "eth_usdc",
+  "oos_return_bps": -44.19,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_carry_btc_v2",
+  "domain": "btc_usdc",
+  "oos_return_bps": -45.81,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_streak_sol_v8",
+  "domain": "sol_usdc",
+  "oos_return_bps": -47.1,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_collapse_eth_v4",
+  "domain": "eth_usdc",
+  "oos_return_bps": -61.43,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_mom_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": -65.32,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "calm_grind_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": -68.7,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_funding_eth",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": -71.52,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_ema513_eth_v9",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": -79.74,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_sol_v9",
+  "domain": "sol_usdc",
+  "oos_return_bps": -98.63,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "pctb_fade_sol_v3",
+  "domain": "sol_usdc",
+  "oos_return_bps": -112.17,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_mom_pull_eth_v7",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": -113.56,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rel_strength_eth_v9",
+  "domain": "eth_usdc",
+  "oos_return_bps": -128.14,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_collapse_eth_v9",
+  "domain": "eth_usdc",
+  "oos_return_bps": -131.04,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_mom_btc_v6",
+  "domain": "btc_usdc",
+  "oos_return_bps": -143.48,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "us_session_mom_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": -151.74,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_volburst_btc_v5",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": -153.94,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_dca_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": -155.1,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": -163.48,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_eth_v2",
+  "domain": "eth_usdc",
+  "oos_return_bps": -166.13,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_dca_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": -168.81,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_range_sol_v6",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": -173.51,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "asia_drift_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": -178.33,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_gate_mom_eth_v3",
+  "domain": "eth_usdc",
+  "oos_return_bps": -181.52,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_eth_v7",
+  "domain": "eth_usdc",
+  "oos_return_bps": -193.11,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "monday_drift_sol_v5",
+  "domain": "sol_usdc",
+  "oos_return_bps": -195.74,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "monday_drift_sol_v9",
+  "domain": "sol_usdc",
+  "oos_return_bps": -208.39,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ema_pullback_eth_v9",
+  "domain": "eth_usdc",
+  "oos_return_bps": -209.66,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": -218.46,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_btc_v2",
+  "domain": "btc_usdc",
+  "oos_return_bps": -220.75,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_squeeze_btc_v6",
+  "domain": "btc_usdc",
+  "oos_return_bps": -236.21,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_volburst_btc_v9",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": -240.12,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_range_sol_v2",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": -243.74,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_range_sol_v8",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": -245.19,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_dca_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": -246.53,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_eth_v8",
+  "domain": "eth_usdc",
+  "oos_return_bps": -253.06,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "streak_revert_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": -254.5,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_eth_v5",
+  "domain": "eth_usdc",
+  "oos_return_bps": -254.59,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "confluence_long_eth_v6",
+  "domain": "eth_usdc",
+  "oos_return_bps": -256.01,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "calm_grind_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": -257.18,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "confluence_long_eth_v4",
+  "domain": "eth_usdc",
+  "oos_return_bps": -259.29,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_collapse_eth_v3",
+  "domain": "eth_usdc",
+  "oos_return_bps": -262.75,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "confluence_long_eth_v8",
+  "domain": "eth_usdc",
+  "oos_return_bps": -267.76,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_streak_sol_v9",
+  "domain": "sol_usdc",
+  "oos_return_bps": -283.54,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_burst_sol_v8",
+  "domain": "sol_usdc",
+  "oos_return_bps": -287.31,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "confluence_long_eth_v2",
+  "domain": "eth_usdc",
+  "oos_return_bps": -301.35,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_range_sol_v5",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": -302.82,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_carry_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": -314.49,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "cross_regime_eth_v9",
+  "domain": "eth_usdc",
+  "oos_return_bps": -319.3,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "monday_drift_sol_v6",
+  "domain": "sol_usdc",
+  "oos_return_bps": -320.16,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_volburst_btc_v7",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": -340.21,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_dca_btc_v3",
+  "domain": "btc_usdc",
+  "oos_return_bps": -344.99,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "us_session_mom_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": -360.2,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_btclead_sol_v9",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": -366.22,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ema_pullback_eth_v3",
+  "domain": "eth_usdc",
+  "oos_return_bps": -374.34,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_squeeze_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": -389.65,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "cross_regime_eth_v4",
+  "domain": "eth_usdc",
+  "oos_return_bps": -401.14,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_collapse_eth_v8",
+  "domain": "eth_usdc",
+  "oos_return_bps": -402.05,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_range_sol_v3",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": -402.11,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "lowvol_mom_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": -410.48,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "cross_regime_eth_v3",
+  "domain": "eth_usdc",
+  "oos_return_bps": -410.54,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_vwap_sol_v4",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": -411.43,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "triple_touch_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": -412.52,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_dca_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": -418.59,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": -419.62,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_eth_v4",
+  "domain": "eth_usdc",
+  "oos_return_bps": -428.84,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "btc_lead_sol_v7",
+  "domain": "sol_usdc",
+  "oos_return_bps": -431.85,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_fade_eth_v7",
+  "domain": "eth_usdc",
+  "oos_return_bps": -479.93,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_carry_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": -508.52,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "streak_revert_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": -524.98,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_gate_mom_eth_v8",
+  "domain": "eth_usdc",
+  "oos_return_bps": -537.64,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_btclead_sol_v6",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": -568.54,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_vol_btc_v5",
+  "domain": "btc_usdc",
+  "oos_return_bps": -569.4,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "streak_revert_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": -577.0,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_dca_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": -624.84,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_dca_btc_v6",
+  "domain": "btc_usdc",
+  "oos_return_bps": -626.27,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "monday_drift_sol_v7",
+  "domain": "sol_usdc",
+  "oos_return_bps": -629.29,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "cross_regime_eth_v6",
+  "domain": "eth_usdc",
+  "oos_return_bps": -632.12,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_gate_mom_eth_v9",
+  "domain": "eth_usdc",
+  "oos_return_bps": -633.4,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "streak_revert_btc_v3",
+  "domain": "btc_usdc",
+  "oos_return_bps": -636.41,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_dca_btc_v2",
+  "domain": "btc_usdc",
+  "oos_return_bps": -668.51,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_sol_v6",
+  "domain": "sol_usdc",
+  "oos_return_bps": -702.93,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_collapse_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": -749.62,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_collapse_eth_v6",
+  "domain": "eth_usdc",
+  "oos_return_bps": -750.92,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_collapse_eth_v2",
+  "domain": "eth_usdc",
+  "oos_return_bps": -776.59,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "cross_regime_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": -778.62,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "cross_regime_eth_v8",
+  "domain": "eth_usdc",
+  "oos_return_bps": -793.25,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_mom_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": -804.1,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi_div_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": -819.64,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_squeeze_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": -859.01,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_fade_eth_v3",
+  "domain": "eth_usdc",
+  "oos_return_bps": -909.12,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_mom_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": -916.71,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_btclead_sol_v5",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": -960.93,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "pctb_fade_sol_v2",
+  "domain": "sol_usdc",
+  "oos_return_bps": -962.13,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_fade_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": -1006.62,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi_div_eth_v2",
+  "domain": "eth_usdc",
+  "oos_return_bps": -1058.47,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "pctb_fade_sol_v5",
+  "domain": "sol_usdc",
+  "oos_return_bps": -1110.54,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_contrarian_btc_v5",
+  "domain": "btc_usdc",
+  "oos_return_bps": -1180.5,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_collapse_eth_v5",
+  "domain": "eth_usdc",
+  "oos_return_bps": -1185.44,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ema_pullback_eth_v2",
+  "domain": "eth_usdc",
+  "oos_return_bps": -1200.42,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_gate_mom_eth_v2",
+  "domain": "eth_usdc",
+  "oos_return_bps": -1459.33,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_gate_mom_eth_v4",
+  "domain": "eth_usdc",
+  "oos_return_bps": -1998.84,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi_div_eth_v7",
+  "domain": "eth_usdc",
+  "oos_return_bps": -2250.33,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_gate_mom_eth_v5",
+  "domain": "eth_usdc",
+  "oos_return_bps": -2461.93,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_funding_eth_v2",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": 0.0,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_funding_eth_v5",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": 0.0,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "accel_mom_sol",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "btc_lead_sol_v6",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "atr_exp_btc_v3",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "book_imb_mom_btc_v5",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "bb_squeeze_sol_v4",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "calm_grind_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "cross_regime_eth_v2",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_vol_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_contrarian_btc_v6",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_mom_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_squeeze_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "gap_fade_btc_v5",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "higher_low_eth_v6",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "liq_cascade_sol_v7",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ribbon_trend_sol_v2",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi2_revert_eth_v3",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi_revert_sol_v5",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_mom_pull_eth_v9",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_rsi7_btc",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_stoch_eth_v2",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_volburst_btc_v3",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "sol_eth_lead_sol_v5",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "streak_revert_btc_v6",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "triple_touch_eth_v7",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_burst_sol_v9",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "weekend_season_eth_v2",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_gate_mom_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "zscore_fade_btc_v3",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "accel_mom_sol_v2",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "book_imb_mom_btc_v6",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "bb_squeeze_sol_v5",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "confluence_long_eth_v9",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_sol_v2",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_fade_eth_v4",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_contrarian_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_streak_sol",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "gap_fade_btc_v6",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "higher_low_eth_v7",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "liq_cascade_sol_v8",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "lowvol_mom_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ribbon_trend_sol_v3",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi2_revert_eth_v4",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi_revert_sol_v6",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_btclead_sol_v7",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_ema513_eth_v8",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_rsi7_btc_v2",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": null,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_funding_eth_v9",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_range_sol",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_stoch_eth_v3",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_volburst_btc_v4",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_vwap_sol_v5",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "streak_revert_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "triple_touch_eth_v8",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "weekend_season_eth_v3",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "zscore_fade_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "book_imb_mom_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "btc_lead_sol_v8",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "atr_exp_btc_v5",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "bb_squeeze_sol_v6",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "calm_grind_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_vol_btc_v6",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_contrarian_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_streak_sol_v2",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_fade_eth_v4",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_flip_eth_v5",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "gap_fade_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "higher_low_eth_v8",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "liq_cascade_sol_v9",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "monday_drift_sol",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ribbon_trend_sol_v4",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi2_revert_eth_v5",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi_revert_sol_v7",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_btclead_sol_v8",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_mom_pull_eth",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_rsi7_btc_v3",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_stoch_eth_v4",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_vwap_sol_v6",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "sol_eth_lead_sol_v7",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "triple_touch_eth_v9",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "weekend_season_eth_v4",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "zscore_fade_btc_v5",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "atr_exp_btc_v6",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "btc_lead_sol_v9",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "book_imb_mom_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "bb_squeeze_sol_v7",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "cross_regime_eth_v5",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_fade_eth_v6",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_vol_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ema_pullback_eth_v8",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_streak_sol_v3",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_carry_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_flip_eth_v6",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_squeeze_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "higher_low_eth_v9",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "lowvol_mom_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ribbon_trend_sol_v5",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi2_revert_eth_v6",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi_revert_sol_v8",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_mom_pull_eth_v2",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_stoch_eth_v5",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": null,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_rsi7_btc_v4",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_volburst_btc_v6",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_vwap_sol_v7",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "sol_eth_lead_sol_v8",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "zscore_fade_btc_v6",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "accel_mom_sol_v5",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "book_imb_mom_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "bb_squeeze_sol_v8",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "atr_exp_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_vol_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_pullback_sol_v3",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_carry_btc_v5",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_flip_eth_v7",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "gap_fade_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "lowvol_mom_btc_v2",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "monday_drift_sol_v3",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rel_strength_eth_v5",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "pctb_fade_sol_v4",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ribbon_trend_sol_v6",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi2_revert_eth_v7",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi_revert_sol_v9",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_ema513_eth",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_range_sol_v4",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_rsi7_btc_v5",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_stoch_eth_v6",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "sol_eth_lead_sol_v9",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_vwap_sol_v8",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_burst_sol_v3",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "weekend_season_eth_v6",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "zscore_fade_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "accel_mom_sol_v6",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "btc_lead_sol",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "calm_grind_btc_v2",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "atr_exp_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "bb_squeeze_sol_v9",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_fade_eth_v8",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "cross_regime_eth_v7",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_vol_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_streak_sol_v5",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_pullback_sol_v4",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_carry_btc_v6",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_flip_eth_v8",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_squeeze_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "higher_low_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "liq_cascade_sol_v2",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rel_strength_eth_v6",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "lowvol_mom_btc_v3",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi2_revert_eth_v8",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_btclead_sol",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_ema513_eth_v2",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_mom_pull_eth_v4",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_rsi7_btc_v6",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_stoch_eth_v7",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_volburst_btc_v8",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_vwap_sol_v9",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "streak_revert_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "triple_touch_eth_v2",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_burst_sol_v4",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "us_session_mom_btc_v3",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_gate_mom_eth_v6",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "weekend_season_eth_v7",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "zscore_fade_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "accel_mom_sol_v7",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "asia_drift_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "atr_exp_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "btc_lead_sol_v2",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "book_imb_mom_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "calm_grind_btc_v3",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "crash_recovery_sol_v7",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ema_pullback_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_fade_eth_v9",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_contrarian_btc_v2",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_streak_sol_v6",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_flip_eth_v9",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "gap_fade_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "higher_low_eth_v2",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "liq_cascade_sol_v3",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_mom_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ribbon_trend_sol_v8",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi2_revert_eth_v9",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi_revert_sol",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_btclead_sol_v2",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_mom_pull_eth_v5",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_rsi7_btc_v7",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_stoch_eth_v8",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "sol_eth_lead_sol",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "streak_revert_btc_v2",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "triple_touch_eth_v3",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "us_session_mom_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_burst_sol_v5",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_gate_mom_eth_v7",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "zscore_fade_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "accel_mom_sol_v8",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "btc_lead_sol_v3",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "book_imb_mom_btc_v2",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "bb_squeeze_sol",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "confluence_long_eth_v5",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_vol_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_streak_sol_v7",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_carry_btc_v8",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "gap_fade_btc_v2",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "higher_low_eth_v3",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "lowvol_mom_btc_v5",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "pctb_fade_sol_v7",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rel_strength_eth_v8",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ribbon_trend_sol_v9",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi_revert_sol_v2",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_range_sol_v7",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_mom_pull_eth_v6",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_rsi7_btc_v8",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_stoch_eth_v9",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_vwap_sol",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "sol_eth_lead_sol_v2",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "triple_touch_eth_v4",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "us_session_mom_btc_v5",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_burst_sol_v6",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "weekend_season_eth_v9",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_collapse_eth_v7",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "accel_mom_sol_v9",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "book_imb_mom_btc_v3",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "atr_exp_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "bb_squeeze_sol_v2",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "btc_lead_sol_v4",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_vol_btc_v2",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_contrarian_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_dca_btc_v5",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_pullback_sol_v7",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_carry_btc_v9",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_flip_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_squeeze_btc_v2",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "higher_low_eth_v4",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "gap_fade_btc_v3",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "pctb_fade_sol_v8",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi2_revert_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_funding_eth_v6",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_rsi7_btc_v9",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_vwap_sol_v2",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "sol_eth_lead_sol_v3",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "triple_touch_eth_v5",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "vol_burst_sol_v7",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "zscore_fade_btc",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "atr_exp_btc_v2",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "btc_lead_sol_v5",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "book_imb_mom_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "bb_squeeze_sol_v3",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "calm_grind_btc_v6",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_fade_eth_v2",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "donchian_vol_btc_v3",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ema_pullback_eth_v4",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "fng_pullback_sol_v8",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "funding_squeeze_btc_v3",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "higher_low_eth_v5",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "gap_fade_btc_v4",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "lowvol_mom_btc_v7",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "pctb_fade_sol_v9",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "ribbon_trend_sol",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi2_revert_eth_v2",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "rsi_revert_sol_v4",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_funding_eth_v7",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_mom_pull_eth_v8",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_range_sol_v9",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_stoch_eth",
+  "domain": "eth_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_vwap_sol_v3",
+  "domain": "sol_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "scalp_volburst_btc_v2",
+  "domain": "btc_usdc_scalp",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "sol_eth_lead_sol_v4",
+  "domain": "sol_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "streak_revert_btc_v5",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ },
+ {
+  "key": "weekend_season_eth",
+  "domain": "eth_usdc",
+  "oos_return_bps": null,
+  "validation_score": 5.0,
+  "status": "rejected"
+ },
+ {
+  "key": "zscore_fade_btc_v2",
+  "domain": "btc_usdc",
+  "oos_return_bps": null,
+  "validation_score": 12.0,
+  "status": "rejected"
+ }
+]

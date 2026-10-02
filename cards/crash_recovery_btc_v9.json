@@ -1,0 +1,22 @@
+{
+ "key": "crash_recovery_btc_v9",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": 159.31,
+  "win_rate": 0.5,
+  "sharpe": 0.3025,
+  "max_drawdown_bps": 157.57,
+  "total_trades": 4
+ },
+ "in_sample": {
+  "total_return_bps": 183.15,
+  "win_rate": 0.5,
+  "sharpe": 0.2263,
+  "total_trades": 34
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "key": "vol_collapse_eth_v7",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": null,
+  "win_rate": null,
+  "sharpe": null,
+  "max_drawdown_bps": null,
+  "total_trades": null
+ },
+ "in_sample": {
+  "total_return_bps": -1579.83,
+  "win_rate": 0.3969,
+  "sharpe": -1.1666,
+  "total_trades": 131
+ }
+}

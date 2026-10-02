@@ -1,0 +1,22 @@
+{
+ "key": "lowvol_mom_btc_v6",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": 234.19,
+  "win_rate": 0.4051,
+  "sharpe": 0.3071,
+  "max_drawdown_bps": 752.25,
+  "total_trades": 79
+ },
+ "in_sample": {
+  "total_return_bps": -475.39,
+  "win_rate": 0.4355,
+  "sharpe": -0.3123,
+  "total_trades": 248
+ }
+}

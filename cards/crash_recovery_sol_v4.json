@@ -1,0 +1,22 @@
+{
+ "key": "crash_recovery_sol_v4",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -26.37,
+  "win_rate": 0.6667,
+  "sharpe": -0.202,
+  "max_drawdown_bps": 70.21,
+  "total_trades": 3
+ },
+ "in_sample": {
+  "total_return_bps": -24.63,
+  "win_rate": 0.4815,
+  "sharpe": -0.0424,
+  "total_trades": 27
+ }
+}

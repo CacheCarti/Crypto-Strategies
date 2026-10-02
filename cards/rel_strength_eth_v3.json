@@ -1,0 +1,15 @@
+{
+ "key": "rel_strength_eth_v3",
+ "domain": "eth_usdc",
+ "status": "passed",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "oos": {
+  "total_return_bps": -302.97,
+  "win_rate": 0.2,
+  "sharpe": -1.7501,
+  "max_drawdown_bps": 178.87,
+  "total_trades": 10
+ },
+ "note": "passed full 7-stage validation - released as one of the weakest survivors"
+}

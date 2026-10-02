@@ -1,0 +1,22 @@
+{
+ "key": "fng_mom_btc_v7",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -916.71,
+  "win_rate": 0.3333,
+  "sharpe": -2.3884,
+  "max_drawdown_bps": 806.44,
+  "total_trades": 15
+ },
+ "in_sample": {
+  "total_return_bps": -335.46,
+  "win_rate": 0.3125,
+  "sharpe": -1.0126,
+  "total_trades": 16
+ }
+}

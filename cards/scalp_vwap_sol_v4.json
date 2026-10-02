@@ -1,0 +1,22 @@
+{
+ "key": "scalp_vwap_sol_v4",
+ "domain": "sol_usdc_scalp",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -411.43,
+  "win_rate": 0.3636,
+  "sharpe": -1.7892,
+  "max_drawdown_bps": 427.17,
+  "total_trades": 11
+ },
+ "in_sample": {
+  "total_return_bps": -828.03,
+  "win_rate": 0.5068,
+  "sharpe": -2.0696,
+  "total_trades": 73
+ }
+}

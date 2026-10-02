@@ -1,0 +1,22 @@
+{
+ "key": "rel_strength_eth_v5",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 5.0,
+ "stages_passed": 1,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": null,
+  "win_rate": null,
+  "sharpe": null,
+  "max_drawdown_bps": null,
+  "total_trades": null
+ },
+ "in_sample": {
+  "total_return_bps": -798.91,
+  "win_rate": 0.1333,
+  "sharpe": -3.0698,
+  "total_trades": 15
+ }
+}

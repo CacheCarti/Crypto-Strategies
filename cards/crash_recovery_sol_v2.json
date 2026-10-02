@@ -1,0 +1,9 @@
+{
+ "key": "crash_recovery_sol_v2",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null
+}

@@ -1,0 +1,22 @@
+{
+ "key": "scalp_btclead_sol_v9",
+ "domain": "sol_usdc_scalp",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -366.22,
+  "win_rate": 0.3077,
+  "sharpe": -2.4082,
+  "max_drawdown_bps": 265.42,
+  "total_trades": 26
+ },
+ "in_sample": {
+  "total_return_bps": -1227.67,
+  "win_rate": 0.3396,
+  "sharpe": -2.9242,
+  "total_trades": 106
+ }
+}

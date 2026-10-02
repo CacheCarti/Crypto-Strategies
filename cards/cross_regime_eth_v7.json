@@ -1,0 +1,9 @@
+{
+ "key": "cross_regime_eth_v7",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null
+}

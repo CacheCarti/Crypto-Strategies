@@ -1,0 +1,9 @@
+{
+ "key": "scalp_stoch_eth_v8",
+ "domain": "eth_usdc_scalp",
+ "status": "rejected",
+ "validation_score": 5.0,
+ "stages_passed": 1,
+ "failed_stage": null,
+ "reason": null
+}

@@ -1,0 +1,22 @@
+{
+ "key": "us_session_mom_btc_v9",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -360.2,
+  "win_rate": 0.4138,
+  "sharpe": -0.5305,
+  "max_drawdown_bps": 643.79,
+  "total_trades": 29
+ },
+ "in_sample": {
+  "total_return_bps": -424.76,
+  "win_rate": 0.4789,
+  "sharpe": -0.4647,
+  "total_trades": 71
+ }
+}

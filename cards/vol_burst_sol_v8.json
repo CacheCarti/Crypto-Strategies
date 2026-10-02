@@ -1,0 +1,22 @@
+{
+ "key": "vol_burst_sol_v8",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -287.31,
+  "win_rate": 0.5,
+  "sharpe": -0.3644,
+  "max_drawdown_bps": 1044.27,
+  "total_trades": 44
+ },
+ "in_sample": {
+  "total_return_bps": -318.6,
+  "win_rate": 0.4609,
+  "sharpe": -0.2064,
+  "total_trades": 115
+ }
+}

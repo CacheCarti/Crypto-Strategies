@@ -1,0 +1,9 @@
+{
+ "key": "streak_revert_btc_v7",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 5.0,
+ "stages_passed": 1,
+ "failed_stage": null,
+ "reason": null
+}

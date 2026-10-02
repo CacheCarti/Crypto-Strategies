@@ -1,0 +1,9 @@
+{
+ "key": "donchian_fade_eth_v2",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null
+}

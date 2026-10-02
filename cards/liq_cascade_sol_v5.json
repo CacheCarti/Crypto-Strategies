@@ -1,0 +1,22 @@
+{
+ "key": "liq_cascade_sol_v5",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -33.85,
+  "win_rate": 0.5,
+  "sharpe": -0.0821,
+  "max_drawdown_bps": 211.44,
+  "total_trades": 28
+ },
+ "in_sample": {
+  "total_return_bps": -993.43,
+  "win_rate": 0.3656,
+  "sharpe": -1.091,
+  "total_trades": 93
+ }
+}

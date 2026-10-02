@@ -1,0 +1,15 @@
+{
+ "key": "ema_pullback_eth_v7",
+ "domain": "eth_usdc",
+ "status": "passed",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "oos": {
+  "total_return_bps": -562.98,
+  "win_rate": 0.3077,
+  "sharpe": -0.4706,
+  "max_drawdown_bps": 1206.28,
+  "total_trades": 52
+ },
+ "note": "passed full 7-stage validation - released as one of the weakest survivors"
+}

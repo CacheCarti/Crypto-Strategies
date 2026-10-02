@@ -1,0 +1,22 @@
+{
+ "key": "funding_carry_btc_v2",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -45.81,
+  "win_rate": 0.3333,
+  "sharpe": -0.3123,
+  "max_drawdown_bps": 57.62,
+  "total_trades": 9
+ },
+ "in_sample": {
+  "total_return_bps": -816.12,
+  "win_rate": 0.4531,
+  "sharpe": -0.9109,
+  "total_trades": 64
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "key": "fng_dca_btc",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -155.1,
+  "win_rate": 0.5405,
+  "sharpe": -0.1827,
+  "max_drawdown_bps": 363.79,
+  "total_trades": 37
+ },
+ "in_sample": {
+  "total_return_bps": -741.8,
+  "win_rate": 0.4706,
+  "sharpe": -0.3712,
+  "total_trades": 102
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "key": "crash_recovery_eth_v3",
+ "domain": "eth_usdc",
+ "status": "passed",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "oos": {
+  "total_return_bps": -169.13,
+  "win_rate": 0.4286,
+  "sharpe": -0.6984,
+  "max_drawdown_bps": 225.66,
+  "total_trades": 7
+ },
+ "note": "passed full 7-stage validation - released as one of the weakest survivors"
+}

@@ -1,0 +1,22 @@
+{
+ "key": "scalp_funding_eth",
+ "domain": "eth_usdc_scalp",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -71.52,
+  "win_rate": 0.1667,
+  "sharpe": -3.2207,
+  "max_drawdown_bps": 52.41,
+  "total_trades": 6
+ },
+ "in_sample": {
+  "total_return_bps": -219.65,
+  "win_rate": 0.2973,
+  "sharpe": -1.622,
+  "total_trades": 37
+ }
+}

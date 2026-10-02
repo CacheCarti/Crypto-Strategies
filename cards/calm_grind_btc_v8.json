@@ -1,0 +1,22 @@
+{
+ "key": "calm_grind_btc_v8",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -257.18,
+  "win_rate": 0.359,
+  "sharpe": -0.3253,
+  "max_drawdown_bps": 805.43,
+  "total_trades": 78
+ },
+ "in_sample": {
+  "total_return_bps": -1262.25,
+  "win_rate": 0.4093,
+  "sharpe": -1.0418,
+  "total_trades": 193
+ }
+}

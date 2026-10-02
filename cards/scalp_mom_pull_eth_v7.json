@@ -1,0 +1,22 @@
+{
+ "key": "scalp_mom_pull_eth_v7",
+ "domain": "eth_usdc_scalp",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -113.56,
+  "win_rate": 0.3333,
+  "sharpe": -0.9446,
+  "max_drawdown_bps": 115.15,
+  "total_trades": 18
+ },
+ "in_sample": {
+  "total_return_bps": -875.76,
+  "win_rate": 0.24,
+  "sharpe": -3.1805,
+  "total_trades": 50
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "key": "pctb_fade_sol_v3",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -112.17,
+  "win_rate": 0.4706,
+  "sharpe": -0.1725,
+  "max_drawdown_bps": 760.32,
+  "total_trades": 17
+ },
+ "in_sample": {
+  "total_return_bps": 2014.09,
+  "win_rate": 0.5957,
+  "sharpe": 1.9435,
+  "total_trades": 47
+ }
+}

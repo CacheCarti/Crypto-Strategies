@@ -1,0 +1,22 @@
+{
+ "key": "fng_streak_sol_v8",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -47.1,
+  "win_rate": 0.4828,
+  "sharpe": -0.0459,
+  "max_drawdown_bps": 431.1,
+  "total_trades": 29
+ },
+ "in_sample": {
+  "total_return_bps": -480.68,
+  "win_rate": 0.456,
+  "sharpe": -0.1678,
+  "total_trades": 125
+ }
+}

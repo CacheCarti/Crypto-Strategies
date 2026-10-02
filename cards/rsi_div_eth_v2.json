@@ -1,0 +1,22 @@
+{
+ "key": "rsi_div_eth_v2",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -1058.47,
+  "win_rate": 0.4255,
+  "sharpe": -1.732,
+  "max_drawdown_bps": 933.59,
+  "total_trades": 47
+ },
+ "in_sample": {
+  "total_return_bps": -667.08,
+  "win_rate": 0.4818,
+  "sharpe": -0.4669,
+  "total_trades": 137
+ }
+}

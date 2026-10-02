@@ -1,0 +1,9 @@
+{
+ "key": "scalp_funding_eth_v9",
+ "domain": "eth_usdc_scalp",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null
+}

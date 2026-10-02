@@ -1,0 +1,9 @@
+{
+ "key": "book_imb_mom_btc_v6",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 5.0,
+ "stages_passed": 1,
+ "failed_stage": null,
+ "reason": null
+}

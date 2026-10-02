@@ -1,0 +1,15 @@
+{
+ "key": "gap_fade_btc_v8",
+ "domain": "btc_usdc",
+ "status": "passed",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "oos": {
+  "total_return_bps": -372.46,
+  "win_rate": 0.4898,
+  "sharpe": -0.8241,
+  "max_drawdown_bps": 299.65,
+  "total_trades": 49
+ },
+ "note": "passed full 7-stage validation - released as one of the weakest survivors"
+}

@@ -1,0 +1,22 @@
+{
+ "key": "vol_gate_mom_eth_v4",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -1998.84,
+  "win_rate": 0.3333,
+  "sharpe": -1.7232,
+  "max_drawdown_bps": 1504.61,
+  "total_trades": 57
+ },
+ "in_sample": {
+  "total_return_bps": -559.02,
+  "win_rate": 0.461,
+  "sharpe": -0.296,
+  "total_trades": 154
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "key": "crash_recovery_eth_v4",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -428.84,
+  "win_rate": 0.25,
+  "sharpe": -2.6944,
+  "max_drawdown_bps": 271.71,
+  "total_trades": 8
+ },
+ "in_sample": {
+  "total_return_bps": -110.26,
+  "win_rate": 0.42,
+  "sharpe": -0.118,
+  "total_trades": 50
+ }
+}

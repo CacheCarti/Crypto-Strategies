@@ -1,0 +1,22 @@
+{
+ "key": "scalp_ema513_eth_v3",
+ "domain": "eth_usdc_scalp",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": 113.29,
+  "win_rate": 0.5,
+  "sharpe": 0.5292,
+  "max_drawdown_bps": 49.15,
+  "total_trades": 4
+ },
+ "in_sample": {
+  "total_return_bps": -13.98,
+  "win_rate": 0.4444,
+  "sharpe": -0.06,
+  "total_trades": 9
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "key": "rsi_revert_sol_v7",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "validation_score": 5.0,
+ "stages_passed": 1,
+ "failed_stage": null,
+ "reason": null
+}

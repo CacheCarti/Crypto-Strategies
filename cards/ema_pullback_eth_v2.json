@@ -1,0 +1,22 @@
+{
+ "key": "ema_pullback_eth_v2",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -1200.42,
+  "win_rate": 0.4286,
+  "sharpe": -1.0479,
+  "max_drawdown_bps": 1154.64,
+  "total_trades": 63
+ },
+ "in_sample": {
+  "total_return_bps": -1432.15,
+  "win_rate": 0.4072,
+  "sharpe": -0.8252,
+  "total_trades": 167
+ }
+}

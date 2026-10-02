@@ -1,0 +1,22 @@
+{
+ "key": "donchian_vol_btc_v5",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "failed_stage": null,
+ "reason": null,
+ "oos": {
+  "total_return_bps": -569.4,
+  "win_rate": 0.3671,
+  "sharpe": -0.5409,
+  "max_drawdown_bps": 1222.05,
+  "total_trades": 79
+ },
+ "in_sample": {
+  "total_return_bps": -1062.21,
+  "win_rate": 0.4255,
+  "sharpe": -0.6106,
+  "total_trades": 188
+ }
+}
