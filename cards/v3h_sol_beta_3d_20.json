@@ -1,0 +1,35 @@
+{
+ "key": "v3h_sol_beta_3d_20",
+ "name": "v3h_sol_beta_3d_20",
+ "family": "v3h_sol_beta_3d_20",
+ "batch": "v3h",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "result_class": "robustness_reject",
+ "admission_tier": "reject",
+ "validation_score": 95.0,
+ "stages_passed": 5,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": false,
+  "randomized_start": true,
+  "perturbation": false,
+  "holdout": true
+ },
+ "failed_requirements": [
+  "stages<6"
+ ],
+ "oos": {
+  "total_return_bps": 2776.9,
+  "win_rate": 0.6,
+  "sharpe": 1.5793,
+  "max_drawdown_bps": 120.28,
+  "total_trades": 5
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio"
+}

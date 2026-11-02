@@ -1,0 +1,36 @@
+{
+ "key": "v4_btc_oidiv_36_100_conf",
+ "name": "v4_btc_oidiv_36_100_conf",
+ "family": "v4_btc_oidiv_36_100_conf",
+ "batch": "v4",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "result_class": "robustness_reject",
+ "admission_tier": "reject",
+ "validation_score": 25.0,
+ "stages_passed": 3,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": false,
+  "randomized_start": false,
+  "perturbation": false,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "stages<6",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": 640.81,
+  "win_rate": 0.3243,
+  "sharpe": 0.7109,
+  "max_drawdown_bps": 376.57,
+  "total_trades": 37
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio"
+}

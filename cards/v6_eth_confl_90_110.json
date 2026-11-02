@@ -1,0 +1,37 @@
+{
+ "key": "v6_eth_confl_90_110",
+ "name": "v6_eth_confl_90_110",
+ "family": "v6_eth_confl_90_110",
+ "batch": "v6",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "result_class": "oos_reject",
+ "admission_tier": "reject",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": false,
+  "walk_forward": false,
+  "randomized_start": false,
+  "perturbation": false,
+  "holdout": null
+ },
+ "failed_requirements": [
+  "stages<6",
+  "oos_not_passed",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": -143.44,
+  "win_rate": 0.375,
+  "sharpe": -0.0984,
+  "max_drawdown_bps": 895.34,
+  "total_trades": 24
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio"
+}

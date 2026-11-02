@@ -18,5 +18,56 @@
   "win_rate": 0.3947,
   "sharpe": -1.2375,
   "total_trades": 38
+ },
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "rescreens": {
+  "strict01": {
+   "admitted": false,
+   "result_class": "oos_reject",
+   "admission_tier": "reject",
+   "validation_score": 12.0,
+   "stages_passed": 2,
+   "failed_stage": null,
+   "stage_statuses": {
+    "static_check": true,
+    "in_sample": true,
+    "out_of_sample": false,
+    "walk_forward": null,
+    "randomized_start": null,
+    "perturbation": null,
+    "holdout": null
+   },
+   "oos": {
+    "total_return_bps": 84.89,
+    "win_rate": 0.35,
+    "sharpe": 0.0943,
+    "max_drawdown_bps": 441.17,
+    "total_trades": 20
+   }
+  },
+  "strict02": {
+   "admitted": false,
+   "result_class": "holdout_reject",
+   "admission_tier": "reject",
+   "validation_score": 75.0,
+   "stages_passed": 6,
+   "failed_stage": null,
+   "stage_statuses": {
+    "static_check": true,
+    "in_sample": true,
+    "out_of_sample": true,
+    "walk_forward": true,
+    "randomized_start": true,
+    "perturbation": true,
+    "holdout": false
+   },
+   "oos": {
+    "total_return_bps": 843.36,
+    "win_rate": 0.5714,
+    "sharpe": 1.5027,
+    "max_drawdown_bps": 121.58,
+    "total_trades": 7
+   }
+  }
  }
 }

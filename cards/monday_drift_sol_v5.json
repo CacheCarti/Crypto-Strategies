@@ -18,5 +18,32 @@
   "win_rate": 0.4262,
   "sharpe": 0.2983,
   "total_trades": 122
+ },
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "rescreens": {
+  "strict01": {
+   "admitted": false,
+   "result_class": "oos_reject",
+   "admission_tier": "reject",
+   "validation_score": 12.0,
+   "stages_passed": 2,
+   "failed_stage": null,
+   "stage_statuses": {
+    "static_check": true,
+    "in_sample": true,
+    "out_of_sample": false,
+    "walk_forward": null,
+    "randomized_start": null,
+    "perturbation": null,
+    "holdout": null
+   },
+   "oos": {
+    "total_return_bps": 512.96,
+    "win_rate": 0.4211,
+    "sharpe": 0.4867,
+    "max_drawdown_bps": 520.81,
+    "total_trades": 38
+   }
+  }
  }
 }

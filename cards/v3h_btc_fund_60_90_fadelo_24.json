@@ -1,0 +1,35 @@
+{
+ "key": "v3h_btc_fund_60_90_fadelo_24",
+ "name": "v3h_btc_fund_60_90_fadelo_24",
+ "family": "v3h_btc_fund_60_90_fadelo_24",
+ "batch": "v3h",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "result_class": "robustness_reject",
+ "admission_tier": "reject",
+ "validation_score": 95.0,
+ "stages_passed": 5,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": false,
+  "randomized_start": true,
+  "perturbation": false,
+  "holdout": true
+ },
+ "failed_requirements": [
+  "stages<6"
+ ],
+ "oos": {
+  "total_return_bps": 599.63,
+  "win_rate": 0.8889,
+  "sharpe": 0.8833,
+  "max_drawdown_bps": 241.83,
+  "total_trades": 9
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio"
+}

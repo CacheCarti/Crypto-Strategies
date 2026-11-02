@@ -1,0 +1,35 @@
+{
+ "key": "v2_btcdom_drev_288_150_session1220",
+ "name": "DRev2 btcdom 288/1.5/session",
+ "family": "v2_btcdom_drev_288_150_session1220",
+ "batch": "v2",
+ "domain": "btcdom_usdt",
+ "status": "rejected",
+ "result_class": "holdout_reject",
+ "admission_tier": "reject",
+ "validation_score": 75.0,
+ "stages_passed": 6,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": true,
+  "randomized_start": true,
+  "perturbation": true,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": 556.82,
+  "win_rate": 0.7857,
+  "sharpe": 1.5385,
+  "max_drawdown_bps": 81.44,
+  "total_trades": 14
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio"
+}

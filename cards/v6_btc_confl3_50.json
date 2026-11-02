@@ -1,0 +1,35 @@
+{
+ "key": "v6_btc_confl3_50",
+ "name": "v6_btc_confl3_50",
+ "family": "v6_btc_confl3_50",
+ "batch": "v6",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "result_class": "robustness_reject",
+ "admission_tier": "reject",
+ "validation_score": 95.0,
+ "stages_passed": 5,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": false,
+  "randomized_start": true,
+  "perturbation": false,
+  "holdout": true
+ },
+ "failed_requirements": [
+  "stages<6"
+ ],
+ "oos": {
+  "total_return_bps": 777.44,
+  "win_rate": 0.375,
+  "sharpe": 0.7759,
+  "max_drawdown_bps": 406.14,
+  "total_trades": 16
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio"
+}

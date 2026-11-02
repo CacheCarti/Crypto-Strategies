@@ -32,4 +32,49 @@ Same harness for every strategy, no exceptions: static safety scan, in-sample ba
 
 Most survivors are not in this repo - only the 10 weakest are public (see passed/). The point of the repo is the failures, but the passers are the proof the gate is real.
 
+## The re-screen: the judge got meaner
+
+After the original screen, the harness got stricter - holdout enforced, tighter OOS bars, more gates required. We re-ran all 416 public strategies through two strict configs. Results are on every card in the `rescreens` block:
+
+- **strict01:** 0 of 416 re-passed - including none of the original 10 in `passed/`.
+- **strict02:** exactly 1 re-passed, and it was one of the rejects: `weekend_season_eth_v6` cleared all 7 stages.
+
+### So were the original 10 passes any good?
+
+Honestly: mostly no, under the stricter judge. Re-screened, all 10 die at the out-of-sample gate, and most die with a *negative* OOS return. The best of them (`rel_strength_eth_v3`) got as far as stage 5 and died at holdout with +234 bps OOS; the rest topped out at stage 2-3 with -85 to -900 bps. A pass under the old judge meant "survived 6 months of 5-minute bars" - it did not mean the edge was robust. Meanwhile the only strategy to clear strict02 was a bot we'd already buried (`weekend_season_eth_v6`).
+
+Verdicts are a property of the gate as much as the strategy - that's why every card keeps its re-screen history instead of overwriting the original verdict.
+
+## Drop 1: the hand-tuned batches
+
++332 corpses from the v2-v6b manual batches (Oct 2026), crypto-only, full code + stage-by-stage autopsy. Of the 384 crypto strategies screened in that era, 52 survived and stay private - the rejects published here are parameter neighbors of live strategies, so they show exactly how close the gate gets.
+
+Admits per batch (crypto domains only - gold/oil/TRX batches excluded from this repo):
+
+| Batch | Screened | Admitted | Dead (published) |
+|---|---|---|---|
+| v2 | 42 | 5 | 37 |
+| v3d | 26 | 0 | 26 |
+| v3h | 96 | 0 | 96 |
+| v4 | 92 | 3 | 89 |
+| v5 | 52 | 17 | 35 |
+| v6 | 60 | 18 | 42 |
+| v6b | 16 | 9 | 7 |
+| **Total** | **384** | **52** | **332** |
+
+Worth noting: the admit rate is meaningless across batches - v5/v6/v6b were deliberately narrow batches built around one mechanism that was already working, so they look "good" (35-56% admits). v3h was a broad sweep of new ideas and died 96-for-96. The batch-level number reflects how the batch was generated, not how smart it was.
+
 *Historical simulations. Past performance does not predict future results.*
+
+---
+
+## Try it yourself
+
+Every bot in this repo runs as-is on the same contract the validator used:
+
+- **dMoERA Studio** (free paper account): paste any strategy file, it runs immediately - https://www.dmoera.xyz/studio
+- **Watch the survivors live**: https://www.dmoera.xyz/arena
+- **How the pipeline works**: https://www.dmoera.xyz/docs/user/how-it-works
+- **Fix one and submit it**: improved versions that clear validation compete for routed capital - https://www.dmoera.xyz/arena
+
+*Historical simulations. Past performance does not predict future results. Not financial advice.*

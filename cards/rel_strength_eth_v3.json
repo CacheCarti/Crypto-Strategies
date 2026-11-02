@@ -11,5 +11,56 @@
   "max_drawdown_bps": 178.87,
   "total_trades": 10
  },
- "note": "passed full 7-stage validation - released as one of the weakest survivors"
+ "note": "passed full 7-stage validation - released as one of the weakest survivors",
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "rescreens": {
+  "strict01": {
+   "admitted": false,
+   "result_class": "oos_reject",
+   "admission_tier": "reject",
+   "validation_score": 25.0,
+   "stages_passed": 3,
+   "failed_stage": null,
+   "stage_statuses": {
+    "static_check": true,
+    "in_sample": true,
+    "out_of_sample": false,
+    "walk_forward": true,
+    "randomized_start": false,
+    "perturbation": false,
+    "holdout": false
+   },
+   "oos": {
+    "total_return_bps": -336.97,
+    "win_rate": 0.2222,
+    "sharpe": -1.7883,
+    "max_drawdown_bps": 196.32,
+    "total_trades": 9
+   }
+  },
+  "strict02": {
+   "admitted": false,
+   "result_class": "holdout_reject",
+   "admission_tier": "reject",
+   "validation_score": 55.0,
+   "stages_passed": 5,
+   "failed_stage": null,
+   "stage_statuses": {
+    "static_check": true,
+    "in_sample": true,
+    "out_of_sample": true,
+    "walk_forward": true,
+    "randomized_start": true,
+    "perturbation": false,
+    "holdout": false
+   },
+   "oos": {
+    "total_return_bps": 233.72,
+    "win_rate": 0.6,
+    "sharpe": 0.7313,
+    "max_drawdown_bps": 60.37,
+    "total_trades": 5
+   }
+  }
+ }
 }

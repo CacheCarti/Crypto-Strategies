@@ -1,0 +1,36 @@
+{
+ "key": "v2_btcdom_drev_288_150_volgate",
+ "name": "DRev2 btcdom 288/1.5/volgate",
+ "family": "v2_btcdom_drev_288_150_volgate",
+ "batch": "v2",
+ "domain": "btcdom_usdt",
+ "status": "rejected",
+ "result_class": "robustness_reject",
+ "admission_tier": "reject",
+ "validation_score": 55.0,
+ "stages_passed": 5,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": true,
+  "randomized_start": true,
+  "perturbation": false,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "stages<6",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": 329.38,
+  "win_rate": 0.6111,
+  "sharpe": 0.7259,
+  "max_drawdown_bps": 130.75,
+  "total_trades": 18
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio"
+}

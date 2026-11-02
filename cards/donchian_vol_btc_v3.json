@@ -5,5 +5,32 @@
  "validation_score": 5.0,
  "stages_passed": 1,
  "failed_stage": null,
- "reason": null
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "rescreens": {
+  "strict01": {
+   "admitted": false,
+   "result_class": "oos_reject",
+   "admission_tier": "reject",
+   "validation_score": 12.0,
+   "stages_passed": 2,
+   "failed_stage": null,
+   "stage_statuses": {
+    "static_check": true,
+    "in_sample": true,
+    "out_of_sample": false,
+    "walk_forward": null,
+    "randomized_start": null,
+    "perturbation": null,
+    "holdout": null
+   },
+   "oos": {
+    "total_return_bps": -2020.83,
+    "win_rate": 0.3627,
+    "sharpe": -2.0002,
+    "max_drawdown_bps": 1521.25,
+    "total_trades": 102
+   }
+  }
+ }
 }

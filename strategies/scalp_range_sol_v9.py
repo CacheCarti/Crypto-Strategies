@@ -114,7 +114,7 @@ class SolRangeFadeScalp(Strategy):
         if (ctx.bar_index - self.last_entry_bar) < self.cooldown_bars:
             return None
 
-        # Only scalp sideways/neutral tapes — avoid fading strong directional trends
+        # Only scalp sideways/neutral tapes - avoid fading strong directional trends
         if trend_regime != "neutral":
             return None
 

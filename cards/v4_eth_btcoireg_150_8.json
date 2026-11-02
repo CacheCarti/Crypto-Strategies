@@ -1,0 +1,36 @@
+{
+ "key": "v4_eth_btcoireg_150_8",
+ "name": "v4_eth_btcoireg_150_8",
+ "family": "v4_eth_btcoireg_150_8",
+ "batch": "v4",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "result_class": "robustness_reject",
+ "admission_tier": "reject",
+ "validation_score": 25.0,
+ "stages_passed": 3,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": false,
+  "randomized_start": false,
+  "perturbation": false,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "stages<6",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": 591.5,
+  "win_rate": 0.55,
+  "sharpe": 0.5413,
+  "max_drawdown_bps": 506.22,
+  "total_trades": 20
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio"
+}

@@ -1,0 +1,36 @@
+{
+ "key": "v4_sol_possprd_ride_90_24",
+ "name": "v4_sol_possprd_ride_90_24",
+ "family": "v4_sol_possprd_ride_90_24",
+ "batch": "v4",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "result_class": "robustness_reject",
+ "admission_tier": "reject",
+ "validation_score": 40.0,
+ "stages_passed": 4,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": false,
+  "randomized_start": true,
+  "perturbation": false,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "stages<6",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": 2595.43,
+  "win_rate": 0.5417,
+  "sharpe": 1.3088,
+  "max_drawdown_bps": 451.2,
+  "total_trades": 24
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio"
+}

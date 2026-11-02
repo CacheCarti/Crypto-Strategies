@@ -1,0 +1,37 @@
+{
+ "key": "v5_btc_oidivS_72_150",
+ "name": "v5_btc_oidivS_72_150",
+ "family": "v5_btc_oidivS_72_150",
+ "batch": "v5",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "result_class": "oos_reject",
+ "admission_tier": "reject",
+ "validation_score": 25.0,
+ "stages_passed": 3,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": false,
+  "walk_forward": false,
+  "randomized_start": true,
+  "perturbation": false,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "stages<6",
+  "oos_not_passed",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": -258.2,
+  "win_rate": 0.0,
+  "sharpe": -3.3386,
+  "max_drawdown_bps": 145.27,
+  "total_trades": 5
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio"
+}

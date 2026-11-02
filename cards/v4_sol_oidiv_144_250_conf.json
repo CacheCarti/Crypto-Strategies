@@ -1,0 +1,36 @@
+{
+ "key": "v4_sol_oidiv_144_250_conf",
+ "name": "v4_sol_oidiv_144_250_conf",
+ "family": "v4_sol_oidiv_144_250_conf",
+ "batch": "v4",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "result_class": "robustness_reject",
+ "admission_tier": "reject",
+ "validation_score": 55.0,
+ "stages_passed": 5,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": true,
+  "randomized_start": true,
+  "perturbation": false,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "stages<6",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": 1277.09,
+  "win_rate": 0.55,
+  "sharpe": 1.2158,
+  "max_drawdown_bps": 500.33,
+  "total_trades": 20
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio"
+}
