@@ -33,5 +33,7 @@
   "total_trades": 15
  },
  "reason": "Out-of-sample failed",
- "run_in_studio": "https://www.dmoera.xyz/studio"
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-13"
 }

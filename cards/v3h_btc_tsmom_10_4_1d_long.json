@@ -33,5 +33,8 @@
   "total_trades": 3
  },
  "reason": "Out-of-sample failed",
- "run_in_studio": "https://www.dmoera.xyz/studio"
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-13",
+ "bar_cap_note": "needs 10080 bars of history to produce its first signal; the judge now caps ctx.bars at 1000 bars (live parity), so under judge v2+ this bot cannot run as-is. Its v1 card above was judged before the cap."
 }

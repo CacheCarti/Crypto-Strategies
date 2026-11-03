@@ -64,4 +64,8 @@ Most of these failed validation for a reason - this is a learning resource and a
 
 One honest caveat on the cards: an earlier version of the backtest engine had a bug where a `flat` signal (explicitly close the position) was treated as a no-op by some simulation paths instead of a close. About 1,400 strategies across the full corpus emit `flat` signals, so a narrow set of verdicts may shift a few points under re-screen - the `rescreens` block on each card shows the latest verdict where it exists.
 
+A second caveat: the judge itself keeps getting stricter, so every card is a point-in-time verdict, not a permanent one. Each card now carries `judge_version` and `screened_at` - the whole corpus was screened Oct 9-13, 2026 under judge v1. Since then two changes landed: `ctx.bars` is capped at 1000 bars to match what live bots actually see (Oct 21), and `flat` signals now close positions instead of being ignored (Nov 1). Both only make the judge harsher. If you re-run a bot in the Studio today and it dies earlier than its card says, that's why - the card is stamped to the judge that judged it. 23 bots need more than 1000 bars of history to produce their first signal; those carry a `bar_cap_note` on the card because under the current judge they can't run at all.
+
+Every judge change gets logged in [JUDGE_CHANGELOG.md](JUDGE_CHANGELOG.md) with the date and the direction it moved.
+
 MIT license. Take them apart, learn from them, make them better.

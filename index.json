@@ -4,70 +4,90 @@
   "domain": "btc_usdc",
   "oos_return_bps": -155.76,
   "validation_score": 12.0,
-  "status": "passed"
+  "status": "passed",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "asia_drift_btc_v3",
   "domain": "btc_usdc",
   "oos_return_bps": -165.26,
   "validation_score": 12.0,
-  "status": "passed"
+  "status": "passed",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "crash_recovery_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": -169.13,
   "validation_score": 12.0,
-  "status": "passed"
+  "status": "passed",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "asia_drift_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": -176.87,
   "validation_score": 12.0,
-  "status": "passed"
+  "status": "passed",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_burst_sol_v2",
   "domain": "sol_usdc",
   "oos_return_bps": -243.55,
   "validation_score": 12.0,
-  "status": "passed"
+  "status": "passed",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "monday_drift_sol_v4",
   "domain": "sol_usdc",
   "oos_return_bps": -273.34,
   "validation_score": 12.0,
-  "status": "passed"
+  "status": "passed",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rel_strength_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": -302.97,
   "validation_score": 12.0,
-  "status": "passed"
+  "status": "passed",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_btclead_sol_v3",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": -325.08,
   "validation_score": 12.0,
-  "status": "passed"
+  "status": "passed",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "gap_fade_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": -372.46,
   "validation_score": 12.0,
-  "status": "passed"
+  "status": "passed",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ema_pullback_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": -562.98,
   "validation_score": 12.0,
-  "status": "passed"
+  "status": "passed",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_sol_btcoireg_150_24",
@@ -75,7 +95,9 @@
   "batch": "v4",
   "oos_return_bps": 3200.04,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_beta_7d_30",
@@ -83,7 +105,10 @@
   "batch": "v3h",
   "oos_return_bps": 2913.72,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_sol_beta_3d_20",
@@ -91,7 +116,10 @@
   "batch": "v3h",
   "oos_return_bps": 2776.9,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v4_sol_btcoireg_75_24",
@@ -99,7 +127,9 @@
   "batch": "v4",
   "oos_return_bps": 2647.24,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_possprd_ride_90_24",
@@ -107,7 +137,9 @@
   "batch": "v4",
   "oos_return_bps": 2595.43,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_sol_confl_85_130",
@@ -115,7 +147,9 @@
   "batch": "v6",
   "oos_return_bps": 2491.41,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_sol_ttdiv_90",
@@ -123,7 +157,9 @@
   "batch": "v6",
   "oos_return_bps": 2429.0,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_oidiv_36_100_conf",
@@ -131,7 +167,9 @@
   "batch": "v4",
   "oos_return_bps": 2420.04,
   "validation_score": 55.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6b_sol_conflL_85_130",
@@ -139,7 +177,9 @@
   "batch": "v6b",
   "oos_return_bps": 2398.4,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_btcoireg_75_8",
@@ -147,7 +187,9 @@
   "batch": "v4",
   "oos_return_bps": 1975.05,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_btcoireg_75_24",
@@ -155,7 +197,9 @@
   "batch": "v4",
   "oos_return_bps": 1736.19,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_sol_possprd2_92_p3_nt",
@@ -163,7 +207,9 @@
   "batch": "v5",
   "oos_return_bps": 1655.64,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_sol_ttdiv_95",
@@ -171,7 +217,9 @@
   "batch": "v6",
   "oos_return_bps": 1515.68,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_eth_oidivT_36_150",
@@ -179,7 +227,9 @@
   "batch": "v5",
   "oos_return_bps": 1488.12,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6b_btc_conflL_88_110",
@@ -187,7 +237,9 @@
   "batch": "v6b",
   "oos_return_bps": 1374.09,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_btcoireg_75_8",
@@ -195,7 +247,9 @@
   "batch": "v4",
   "oos_return_bps": 1309.27,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_oidiv_144_250_conf",
@@ -203,7 +257,9 @@
   "batch": "v4",
   "oos_return_bps": 1277.09,
   "validation_score": 55.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_120_volgate",
@@ -211,7 +267,9 @@
   "batch": "v2",
   "oos_return_bps": 1187.83,
   "validation_score": 55.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6b_btc_conflL_90_110",
@@ -219,7 +277,9 @@
   "batch": "v6b",
   "oos_return_bps": 1121.19,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_btc_oidivT_36_150",
@@ -227,21 +287,27 @@
   "batch": "v5",
   "oos_return_bps": 1035.28,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "fng_streak_sol_v4",
   "domain": "sol_usdc",
   "oos_return_bps": 998.09,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_fade_eth",
   "domain": "eth_usdc",
   "oos_return_bps": 974.3,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_eth_ovn_17_5",
@@ -249,7 +315,9 @@
   "batch": "v3h",
   "oos_return_bps": 942.38,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_120_core",
@@ -257,7 +325,9 @@
   "batch": "v2",
   "oos_return_bps": 929.19,
   "validation_score": 55.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_oidiv_144_100_conf",
@@ -265,7 +335,9 @@
   "batch": "v4",
   "oos_return_bps": 909.29,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_eth_oidivT_72_150",
@@ -273,7 +345,9 @@
   "batch": "v5",
   "oos_return_bps": 859.18,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_sol_confl_90_110_h12",
@@ -281,7 +355,9 @@
   "batch": "v6",
   "oos_return_bps": 832.68,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_576_120_volgate",
@@ -289,7 +365,9 @@
   "batch": "v2",
   "oos_return_bps": 786.3,
   "validation_score": 55.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_btc_confl3_50",
@@ -297,7 +375,9 @@
   "batch": "v6",
   "oos_return_bps": 777.44,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_possprd_ride_95_8",
@@ -305,7 +385,9 @@
   "batch": "v4",
   "oos_return_bps": 766.68,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_120_session1220",
@@ -313,7 +395,9 @@
   "batch": "v2",
   "oos_return_bps": 752.12,
   "validation_score": 55.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_oidiv_144_250_conf",
@@ -321,7 +405,9 @@
   "batch": "v4",
   "oos_return_bps": 705.05,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_oidiv_36_250_fade",
@@ -329,7 +415,9 @@
   "batch": "v4",
   "oos_return_bps": 694.84,
   "validation_score": 55.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_btc_oislope_con",
@@ -337,7 +425,9 @@
   "batch": "v6",
   "oos_return_bps": 689.67,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_oidiv_36_100_conf",
@@ -345,14 +435,18 @@
   "batch": "v4",
   "oos_return_bps": 640.81,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "funding_fade_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": 640.47,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v5_eth_oidivT_36_250",
@@ -360,7 +454,9 @@
   "batch": "v5",
   "oos_return_bps": 622.3,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_possprd_ride_95_24",
@@ -368,7 +464,9 @@
   "batch": "v4",
   "oos_return_bps": 609.48,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_btc_ttdiv_95",
@@ -376,7 +474,9 @@
   "batch": "v6",
   "oos_return_bps": 607.26,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_btc_confl3_150",
@@ -384,7 +484,9 @@
   "batch": "v6",
   "oos_return_bps": 606.77,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_eth_ttdiv_95",
@@ -392,7 +494,9 @@
   "batch": "v6",
   "oos_return_bps": 601.52,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_60_90_fadelo_24",
@@ -400,7 +504,9 @@
   "batch": "v3h",
   "oos_return_bps": 599.63,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_btcoireg_150_8",
@@ -408,14 +514,18 @@
   "batch": "v4",
   "oos_return_bps": 591.5,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "funding_fade_eth_v9",
   "domain": "eth_usdc",
   "oos_return_bps": 582.47,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_sol_possprd_ride_95_8",
@@ -423,7 +533,9 @@
   "batch": "v4",
   "oos_return_bps": 564.9,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_btc_possprd2_92_p6_tg",
@@ -431,7 +543,9 @@
   "batch": "v5",
   "oos_return_bps": 559.26,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_150_session1220",
@@ -439,7 +553,9 @@
   "batch": "v2",
   "oos_return_bps": 556.82,
   "validation_score": 75.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_btc_confl_88_110",
@@ -447,7 +563,9 @@
   "batch": "v6",
   "oos_return_bps": 534.08,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_btc_possprd2_92_p6_nt",
@@ -455,7 +573,9 @@
   "batch": "v5",
   "oos_return_bps": 529.58,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_btc_confl_92_130",
@@ -463,7 +583,9 @@
   "batch": "v6",
   "oos_return_bps": 514.36,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_btc_possprd2_95_p3_nt",
@@ -471,7 +593,9 @@
   "batch": "v5",
   "oos_return_bps": 482.76,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_eth_ttdiv_90",
@@ -479,7 +603,9 @@
   "batch": "v6",
   "oos_return_bps": 476.96,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_btc_possprd2_95_p6_nt",
@@ -487,7 +613,9 @@
   "batch": "v5",
   "oos_return_bps": 471.36,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_60_95_fadelo_24",
@@ -495,7 +623,9 @@
   "batch": "v3h",
   "oos_return_bps": 458.89,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_btc_confl_90_130",
@@ -503,7 +633,9 @@
   "batch": "v6",
   "oos_return_bps": 455.62,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_60_95_fadelo_72",
@@ -511,7 +643,9 @@
   "batch": "v3h",
   "oos_return_bps": 454.33,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_eth_oisq_95",
@@ -519,7 +653,9 @@
   "batch": "v6",
   "oos_return_bps": 439.47,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_eth_capitP_400",
@@ -527,14 +663,18 @@
   "batch": "v5",
   "oos_return_bps": 438.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "atr_exp_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": 436.77,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v5_btc_possprd2_92_p3_tg",
@@ -542,7 +682,9 @@
   "batch": "v5",
   "oos_return_bps": 430.48,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_btc_confl_88_130",
@@ -550,7 +692,9 @@
   "batch": "v6",
   "oos_return_bps": 423.78,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_oidiv_36_100_fade",
@@ -558,7 +702,9 @@
   "batch": "v4",
   "oos_return_bps": 422.86,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_btc_confl_92_110",
@@ -566,7 +712,9 @@
   "batch": "v6",
   "oos_return_bps": 415.91,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_btc_possprd2_95_p6_tg",
@@ -574,7 +722,9 @@
   "batch": "v5",
   "oos_return_bps": 394.63,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_btc_ttdiv_90",
@@ -582,7 +732,9 @@
   "batch": "v6",
   "oos_return_bps": 388.35,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_576_150_volgate",
@@ -590,7 +742,9 @@
   "batch": "v2",
   "oos_return_bps": 385.72,
   "validation_score": 55.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_576_120_core",
@@ -598,7 +752,9 @@
   "batch": "v2",
   "oos_return_bps": 384.28,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_eth_confl3_150",
@@ -606,7 +762,9 @@
   "batch": "v6",
   "oos_return_bps": 366.62,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_btc_possprd2_95_p3_tg",
@@ -614,7 +772,9 @@
   "batch": "v5",
   "oos_return_bps": 363.86,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_eth_oidivT_72_250",
@@ -622,7 +782,9 @@
   "batch": "v5",
   "oos_return_bps": 362.54,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_btc_confl_90_110",
@@ -630,7 +792,9 @@
   "batch": "v6",
   "oos_return_bps": 362.47,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_btc_possprd2_92_p3_nt",
@@ -638,14 +802,18 @@
   "batch": "v5",
   "oos_return_bps": 349.54,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "funding_fade_eth_v6",
   "domain": "eth_usdc",
   "oos_return_bps": 346.58,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v2_btcdom_drev_576_150_core",
@@ -653,7 +821,9 @@
   "batch": "v2",
   "oos_return_bps": 341.33,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_576_150_patient",
@@ -661,7 +831,9 @@
   "batch": "v2",
   "oos_return_bps": 341.33,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_576_150_target40",
@@ -669,7 +841,9 @@
   "batch": "v2",
   "oos_return_bps": 341.33,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_576_150_target60",
@@ -677,7 +851,9 @@
   "batch": "v2",
   "oos_return_bps": 341.33,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_150_volgate",
@@ -685,7 +861,9 @@
   "batch": "v2",
   "oos_return_bps": 329.38,
   "validation_score": 55.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_30_90_ridehi_72",
@@ -693,7 +871,9 @@
   "batch": "v3h",
   "oos_return_bps": 323.75,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_capit_200_nf",
@@ -701,7 +881,9 @@
   "batch": "v4",
   "oos_return_bps": 319.24,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_30_95_fadelo_72",
@@ -709,7 +891,9 @@
   "batch": "v3h",
   "oos_return_bps": 318.45,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_576_150_longonly",
@@ -717,7 +901,9 @@
   "batch": "v2",
   "oos_return_bps": 318.12,
   "validation_score": 55.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_576_120_longonly",
@@ -725,7 +911,9 @@
   "batch": "v2",
   "oos_return_bps": 290.79,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_60_95_ridehi_24",
@@ -733,7 +921,9 @@
   "batch": "v3h",
   "oos_return_bps": 278.12,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_beta_1d_10",
@@ -741,7 +931,10 @@
   "batch": "v3h",
   "oos_return_bps": 274.21,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_btc_fund_30_95_fadehi_24",
@@ -749,14 +942,18 @@
   "batch": "v3h",
   "oos_return_bps": 264.03,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "rsi_div_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": 249.56,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_eth_fund_30_95_ridehi_24",
@@ -764,14 +961,18 @@
   "batch": "v3h",
   "oos_return_bps": 247.18,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "funding_fade_eth_v2",
   "domain": "eth_usdc",
   "oos_return_bps": 241.75,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_eth_fund_60_90_ridehi_24",
@@ -779,7 +980,9 @@
   "batch": "v3h",
   "oos_return_bps": 240.53,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_60_95_ridehi_24",
@@ -787,7 +990,9 @@
   "batch": "v3h",
   "oos_return_bps": 240.53,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_60_95_ridehi_72",
@@ -795,7 +1000,9 @@
   "batch": "v3h",
   "oos_return_bps": 239.01,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_possprd_ride_90_24",
@@ -803,14 +1010,18 @@
   "batch": "v4",
   "oos_return_bps": 234.43,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "lowvol_mom_btc_v6",
   "domain": "btc_usdc",
   "oos_return_bps": 234.19,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v2_btcdom_drev_288_150_core",
@@ -818,7 +1029,9 @@
   "batch": "v2",
   "oos_return_bps": 209.84,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_150_patient",
@@ -826,7 +1039,9 @@
   "batch": "v2",
   "oos_return_bps": 209.84,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_150_target40",
@@ -834,7 +1049,9 @@
   "batch": "v2",
   "oos_return_bps": 209.84,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_150_target60",
@@ -842,21 +1059,27 @@
   "batch": "v2",
   "oos_return_bps": 209.84,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "scalp_ema513_eth_v5",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": 194.77,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_ema513_eth_v6",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": 194.77,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_btc_oidiv_36_250_fade",
@@ -864,7 +1087,9 @@
   "batch": "v4",
   "oos_return_bps": 191.75,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_eth_confl_92_110",
@@ -872,7 +1097,9 @@
   "batch": "v6",
   "oos_return_bps": 179.02,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_60_90_ridehi_72",
@@ -880,7 +1107,9 @@
   "batch": "v3h",
   "oos_return_bps": 178.71,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_200_session1220",
@@ -888,14 +1117,18 @@
   "batch": "v2",
   "oos_return_bps": 172.16,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "liq_cascade_sol",
   "domain": "sol_usdc",
   "oos_return_bps": 171.43,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v2_btcdom_drev_288_200_volgate",
@@ -903,7 +1136,9 @@
   "batch": "v2",
   "oos_return_bps": 168.73,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_200_core",
@@ -911,7 +1146,9 @@
   "batch": "v2",
   "oos_return_bps": 163.04,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_200_patient",
@@ -919,7 +1156,9 @@
   "batch": "v2",
   "oos_return_bps": 163.04,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_200_target40",
@@ -927,7 +1166,9 @@
   "batch": "v2",
   "oos_return_bps": 163.04,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_200_target60",
@@ -935,7 +1176,9 @@
   "batch": "v2",
   "oos_return_bps": 163.04,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_oidiv_144_250_fade",
@@ -943,35 +1186,45 @@
   "batch": "v4",
   "oos_return_bps": 161.49,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "us_session_mom_btc",
   "domain": "btc_usdc",
   "oos_return_bps": 160.82,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "confluence_long_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": 159.59,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "crash_recovery_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": 159.31,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_flip_eth_v4",
   "domain": "eth_usdc",
   "oos_return_bps": 144.39,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_eth_fund_60_90_ridehi_72",
@@ -979,7 +1232,9 @@
   "batch": "v3h",
   "oos_return_bps": 142.59,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_60_95_ridehi_72",
@@ -987,7 +1242,9 @@
   "batch": "v3h",
   "oos_return_bps": 142.59,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_30_95_ridehi_24",
@@ -995,14 +1252,18 @@
   "batch": "v3h",
   "oos_return_bps": 141.43,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "funding_flip_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": 140.17,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_sol_fund_30_95_ridehi_72",
@@ -1010,7 +1271,9 @@
   "batch": "v3h",
   "oos_return_bps": 135.18,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_250_core",
@@ -1018,7 +1281,9 @@
   "batch": "v2",
   "oos_return_bps": 132.33,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_eth_confl_92_130",
@@ -1026,7 +1291,9 @@
   "batch": "v6",
   "oos_return_bps": 127.46,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_eth_confl3_50",
@@ -1034,7 +1301,9 @@
   "batch": "v6",
   "oos_return_bps": 123.59,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_60_90_fadehi_24",
@@ -1042,7 +1311,9 @@
   "batch": "v3h",
   "oos_return_bps": 121.38,
   "validation_score": 40.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_60_95_fadehi_24",
@@ -1050,7 +1321,9 @@
   "batch": "v3h",
   "oos_return_bps": 120.49,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_30_95_ridehi_72",
@@ -1058,21 +1331,27 @@
   "batch": "v3h",
   "oos_return_bps": 120.22,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "scalp_ema513_eth_v3",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": 113.29,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "triple_touch_eth_v6",
   "domain": "eth_usdc",
   "oos_return_bps": 112.5,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v2_btcdom_drev_576_250_core",
@@ -1080,7 +1359,9 @@
   "batch": "v2",
   "oos_return_bps": 95.66,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6b_sol_conflS_90_110_probe",
@@ -1088,14 +1369,18 @@
   "batch": "v6b",
   "oos_return_bps": 89.12,
   "validation_score": 55.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "confluence_long_eth",
   "domain": "eth_usdc",
   "oos_return_bps": 87.8,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v2_btcdom_drev_576_200_core",
@@ -1103,7 +1388,9 @@
   "batch": "v2",
   "oos_return_bps": 82.6,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_576_200_patient",
@@ -1111,7 +1398,9 @@
   "batch": "v2",
   "oos_return_bps": 82.6,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_576_200_target40",
@@ -1119,7 +1408,9 @@
   "batch": "v2",
   "oos_return_bps": 82.6,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_576_200_target60",
@@ -1127,7 +1418,9 @@
   "batch": "v2",
   "oos_return_bps": 82.6,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_576_200_volgate",
@@ -1135,14 +1428,18 @@
   "batch": "v2",
   "oos_return_bps": 80.17,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "monday_drift_sol_v2",
   "domain": "sol_usdc",
   "oos_return_bps": 75.72,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v2_btcdom_drev_576_200_longonly",
@@ -1150,7 +1447,9 @@
   "batch": "v2",
   "oos_return_bps": 68.81,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_200_session08",
@@ -1158,28 +1457,36 @@
   "batch": "v2",
   "oos_return_bps": 58.47,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "crash_recovery_sol_v5",
   "domain": "sol_usdc",
   "oos_return_bps": 47.32,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "liq_cascade_sol_v4",
   "domain": "sol_usdc",
   "oos_return_bps": 45.13,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "calm_grind_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": 42.61,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_sol_fund_30_95_fadelo_24",
@@ -1187,7 +1494,9 @@
   "batch": "v3h",
   "oos_return_bps": 30.93,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_30_95_ridehi_72",
@@ -1195,7 +1504,9 @@
   "batch": "v3h",
   "oos_return_bps": 29.38,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_30_90_ridehi_24",
@@ -1203,14 +1514,18 @@
   "batch": "v3h",
   "oos_return_bps": 23.55,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "scalp_funding_eth_v8",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": 7.12,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_btc_fund_60_95_fadelo_24",
@@ -1218,7 +1533,9 @@
   "batch": "v3h",
   "oos_return_bps": 4.55,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_30_90_fadelo_72",
@@ -1226,7 +1543,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_30_90_fadehi_24",
@@ -1234,7 +1553,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_30_90_fadehi_72",
@@ -1242,7 +1563,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_30_90_fadelo_24",
@@ -1250,7 +1573,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_30_90_ridehi_24",
@@ -1258,7 +1583,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_30_95_fadehi_24",
@@ -1266,7 +1593,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_30_95_fadehi_72",
@@ -1274,7 +1603,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_30_90_ridehi_72",
@@ -1282,7 +1613,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_30_95_ridehi_24",
@@ -1290,7 +1623,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_30_95_ridehi_72",
@@ -1298,7 +1633,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_60_90_fadehi_72",
@@ -1306,7 +1643,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_60_90_fadehi_24",
@@ -1314,7 +1653,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_60_95_fadehi_24",
@@ -1322,7 +1663,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_60_90_ridehi_24",
@@ -1330,7 +1673,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_60_90_ridehi_72",
@@ -1338,7 +1683,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_60_95_fadehi_72",
@@ -1346,7 +1693,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_60_95_ridehi_24",
@@ -1354,7 +1703,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_60_95_ridehi_72",
@@ -1362,7 +1713,9 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_wrc_20_3d_tf",
@@ -1370,7 +1723,10 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3d_btcdom_wrc_10_1d_nf",
@@ -1378,7 +1734,10 @@
   "batch": "v3d",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_btc_tsmom_20_5_3d_both",
@@ -1386,7 +1745,10 @@
   "batch": "v3h",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_btc_tsmom_40_8_5d_both",
@@ -1394,7 +1756,10 @@
   "batch": "v3h",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_btc_wrc_20_3d_tf",
@@ -1402,7 +1767,10 @@
   "batch": "v3h",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_eth_tsmom_20_5_3d_both",
@@ -1410,7 +1778,10 @@
   "batch": "v3h",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_eth_wrc_20_3d_tf",
@@ -1418,7 +1789,10 @@
   "batch": "v3h",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_sol_tsmom_20_5_3d_both",
@@ -1426,7 +1800,10 @@
   "batch": "v3h",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_sol_tsmom_40_8_5d_both",
@@ -1434,7 +1811,10 @@
   "batch": "v3h",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_sol_wrc_10_1d_nf",
@@ -1442,7 +1822,10 @@
   "batch": "v3h",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_sol_wrc_20_3d_tf",
@@ -1450,21 +1833,28 @@
   "batch": "v3h",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "scalp_funding_eth_v2",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_funding_eth_v5",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": 0.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_sol_fund_30_90_fadehi_24",
@@ -1472,14 +1862,18 @@
   "batch": "v3h",
   "oos_return_bps": -4.36,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "scalp_funding_eth_v3",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": -16.77,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_eth_possprd_ride_90_24",
@@ -1487,21 +1881,27 @@
   "batch": "v4",
   "oos_return_bps": -17.28,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "scalp_funding_eth_v4",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": -18.51,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_volburst_btc",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": -20.13,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v5_eth_possprd2_92_p3_nt",
@@ -1509,14 +1909,18 @@
   "batch": "v5",
   "oos_return_bps": -26.14,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "crash_recovery_sol_v4",
   "domain": "sol_usdc",
   "oos_return_bps": -26.37,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_sol_fund_60_95_ridehi_72",
@@ -1524,14 +1928,18 @@
   "batch": "v3h",
   "oos_return_bps": -33.06,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "liq_cascade_sol_v5",
   "domain": "sol_usdc",
   "oos_return_bps": -33.85,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_btc_fund_30_90_ridehi_72",
@@ -1539,49 +1947,63 @@
   "batch": "v3h",
   "oos_return_bps": -35.59,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "sol_eth_lead_sol_v6",
   "domain": "sol_usdc",
   "oos_return_bps": -35.93,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "crash_recovery_btc_v5",
   "domain": "btc_usdc",
   "oos_return_bps": -37.96,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "confluence_long_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": -44.19,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_carry_btc_v2",
   "domain": "btc_usdc",
   "oos_return_bps": -45.81,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_streak_sol_v8",
   "domain": "sol_usdc",
   "oos_return_bps": -47.1,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_collapse_eth_v4",
   "domain": "eth_usdc",
   "oos_return_bps": -61.43,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_sol_fund_60_95_fadelo_24",
@@ -1589,7 +2011,9 @@
   "batch": "v3h",
   "oos_return_bps": -61.7,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v2_btcdom_drev_288_150_session08",
@@ -1597,7 +2021,9 @@
   "batch": "v2",
   "oos_return_bps": -63.68,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_eth_oidivS_72_150",
@@ -1605,28 +2031,36 @@
   "batch": "v5",
   "oos_return_bps": -64.38,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "fng_mom_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": -65.32,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "calm_grind_btc",
   "domain": "btc_usdc",
   "oos_return_bps": -68.7,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_funding_eth",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": -71.52,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_btc_possprd_ride_90_8",
@@ -1634,14 +2068,18 @@
   "batch": "v4",
   "oos_return_bps": -77.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "scalp_ema513_eth_v9",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": -79.74,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v2_btcdom_drev_144_250_core",
@@ -1649,7 +2087,9 @@
   "batch": "v2",
   "oos_return_bps": -92.25,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_capit_400_fg",
@@ -1657,7 +2097,9 @@
   "batch": "v4",
   "oos_return_bps": -93.7,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_30_90_fadehi_72",
@@ -1665,14 +2107,18 @@
   "batch": "v3h",
   "oos_return_bps": -95.88,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "crash_recovery_sol_v9",
   "domain": "sol_usdc",
   "oos_return_bps": -98.63,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_eth_capit_400_fg",
@@ -1680,21 +2126,27 @@
   "batch": "v4",
   "oos_return_bps": -104.69,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "pctb_fade_sol_v3",
   "domain": "sol_usdc",
   "oos_return_bps": -112.17,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_mom_pull_eth_v7",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": -113.56,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_sol_tsmom_10_4_1d_long",
@@ -1702,7 +2154,10 @@
   "batch": "v3h",
   "oos_return_bps": -125.37,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v6_sol_takermom_13_6",
@@ -1710,7 +2165,9 @@
   "batch": "v6",
   "oos_return_bps": -126.78,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_capit_200_fg",
@@ -1718,7 +2175,9 @@
   "batch": "v4",
   "oos_return_bps": -127.52,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_eth_possprd2_92_p3_tg",
@@ -1726,14 +2185,18 @@
   "batch": "v5",
   "oos_return_bps": -128.14,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "rel_strength_eth_v9",
   "domain": "eth_usdc",
   "oos_return_bps": -128.14,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_btc_fund_60_95_ridehi_24",
@@ -1741,14 +2204,18 @@
   "batch": "v3h",
   "oos_return_bps": -130.74,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "vol_collapse_eth_v9",
   "domain": "eth_usdc",
   "oos_return_bps": -131.04,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v6_eth_confl_90_110",
@@ -1756,14 +2223,18 @@
   "batch": "v6",
   "oos_return_bps": -143.44,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "fng_mom_btc_v6",
   "domain": "btc_usdc",
   "oos_return_bps": -143.48,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v2_btcdom_drev_288_120_session08",
@@ -1771,14 +2242,18 @@
   "batch": "v2",
   "oos_return_bps": -148.3,
   "validation_score": 95.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "us_session_mom_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": -151.74,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_btc_oidiv_36_100_fade",
@@ -1786,63 +2261,81 @@
   "batch": "v4",
   "oos_return_bps": -153.27,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "scalp_volburst_btc_v5",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": -153.94,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_dca_btc",
   "domain": "btc_usdc",
   "oos_return_bps": -155.1,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "crash_recovery_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": -163.48,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "crash_recovery_eth_v2",
   "domain": "eth_usdc",
   "oos_return_bps": -166.13,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_dca_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": -168.81,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_range_sol_v6",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": -173.51,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "asia_drift_btc",
   "domain": "btc_usdc",
   "oos_return_bps": -178.33,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_gate_mom_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": -181.52,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_eth_possprd_ride_90_8",
@@ -1850,14 +2343,18 @@
   "batch": "v4",
   "oos_return_bps": -187.68,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "crash_recovery_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": -193.11,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_btc_wrc_10_1d_nf",
@@ -1865,14 +2362,19 @@
   "batch": "v3h",
   "oos_return_bps": -195.34,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "monday_drift_sol_v5",
   "domain": "sol_usdc",
   "oos_return_bps": -195.74,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_eth_fund_30_95_fadehi_24",
@@ -1880,7 +2382,9 @@
   "batch": "v3h",
   "oos_return_bps": -205.65,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_wrc_10_1d_nf",
@@ -1888,21 +2392,28 @@
   "batch": "v3h",
   "oos_return_bps": -208.22,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "monday_drift_sol_v9",
   "domain": "sol_usdc",
   "oos_return_bps": -208.39,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ema_pullback_eth_v9",
   "domain": "eth_usdc",
   "oos_return_bps": -209.66,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v6_btc_oisq_95",
@@ -1910,7 +2421,9 @@
   "batch": "v6",
   "oos_return_bps": -213.94,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_60_90_fadehi_72",
@@ -1918,7 +2431,9 @@
   "batch": "v3h",
   "oos_return_bps": -215.39,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_takerx_ride_90_4",
@@ -1926,14 +2441,18 @@
   "batch": "v4",
   "oos_return_bps": -216.81,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "crash_recovery_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": -218.46,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v5_sol_oidivS_36_150",
@@ -1941,14 +2460,18 @@
   "batch": "v5",
   "oos_return_bps": -219.0,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "crash_recovery_btc_v2",
   "domain": "btc_usdc",
   "oos_return_bps": -220.75,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v5_eth_oidivS_36_150",
@@ -1956,42 +2479,54 @@
   "batch": "v5",
   "oos_return_bps": -230.99,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "funding_squeeze_btc_v6",
   "domain": "btc_usdc",
   "oos_return_bps": -236.21,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_volburst_btc_v9",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": -240.12,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_range_sol_v2",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": -243.74,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_range_sol_v8",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": -245.19,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_dca_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": -246.53,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v6_btc_oisq_90",
@@ -1999,42 +2534,54 @@
   "batch": "v6",
   "oos_return_bps": -249.06,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "crash_recovery_eth_v8",
   "domain": "eth_usdc",
   "oos_return_bps": -253.06,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "streak_revert_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": -254.5,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "crash_recovery_eth_v5",
   "domain": "eth_usdc",
   "oos_return_bps": -254.59,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "confluence_long_eth_v6",
   "domain": "eth_usdc",
   "oos_return_bps": -256.01,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "calm_grind_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": -257.18,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v5_btc_oidivS_72_150",
@@ -2042,28 +2589,36 @@
   "batch": "v5",
   "oos_return_bps": -258.2,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "confluence_long_eth_v4",
   "domain": "eth_usdc",
   "oos_return_bps": -259.29,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_collapse_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": -262.75,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "confluence_long_eth_v8",
   "domain": "eth_usdc",
   "oos_return_bps": -267.76,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_btc_capit_200_fg",
@@ -2071,21 +2626,27 @@
   "batch": "v4",
   "oos_return_bps": -271.44,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "fng_streak_sol_v9",
   "domain": "sol_usdc",
   "oos_return_bps": -283.54,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_burst_sol_v8",
   "domain": "sol_usdc",
   "oos_return_bps": -287.31,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_btc_fund_30_95_ridehi_24",
@@ -2093,161 +2654,207 @@
   "batch": "v3h",
   "oos_return_bps": -294.68,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "confluence_long_eth_v2",
   "domain": "eth_usdc",
   "oos_return_bps": -301.35,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_range_sol_v5",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": -302.82,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_carry_btc",
   "domain": "btc_usdc",
   "oos_return_bps": -314.49,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "cross_regime_eth_v9",
   "domain": "eth_usdc",
   "oos_return_bps": -319.3,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "monday_drift_sol_v6",
   "domain": "sol_usdc",
   "oos_return_bps": -320.16,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_volburst_btc_v7",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": -340.21,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_dca_btc_v3",
   "domain": "btc_usdc",
   "oos_return_bps": -344.99,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "us_session_mom_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": -360.2,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_btclead_sol_v9",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": -366.22,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ema_pullback_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": -374.34,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_squeeze_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": -389.65,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "cross_regime_eth_v4",
   "domain": "eth_usdc",
   "oos_return_bps": -401.14,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_collapse_eth_v8",
   "domain": "eth_usdc",
   "oos_return_bps": -402.05,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_range_sol_v3",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": -402.11,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "lowvol_mom_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": -410.48,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "cross_regime_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": -410.54,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_vwap_sol_v4",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": -411.43,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "triple_touch_eth",
   "domain": "eth_usdc",
   "oos_return_bps": -412.52,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_dca_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": -418.59,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "crash_recovery_btc",
   "domain": "btc_usdc",
   "oos_return_bps": -419.62,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "crash_recovery_eth_v4",
   "domain": "eth_usdc",
   "oos_return_bps": -428.84,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "btc_lead_sol_v7",
   "domain": "sol_usdc",
   "oos_return_bps": -431.85,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_eth_tsmom_10_4_1d_long",
@@ -2255,14 +2862,19 @@
   "batch": "v3h",
   "oos_return_bps": -438.69,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "donchian_fade_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": -479.93,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v6_eth_takermom_13_6",
@@ -2270,14 +2882,18 @@
   "batch": "v6",
   "oos_return_bps": -482.13,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "funding_carry_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": -508.52,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_btc_fund_30_90_ridehi_24",
@@ -2285,7 +2901,9 @@
   "batch": "v3h",
   "oos_return_bps": -517.33,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_30_95_fadelo_24",
@@ -2293,42 +2911,54 @@
   "batch": "v3h",
   "oos_return_bps": -520.86,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "streak_revert_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": -524.98,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_gate_mom_eth_v8",
   "domain": "eth_usdc",
   "oos_return_bps": -537.64,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_btclead_sol_v6",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": -568.54,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_vol_btc_v5",
   "domain": "btc_usdc",
   "oos_return_bps": -569.4,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "streak_revert_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": -577.0,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_btc_tsmom_10_4_1d_long",
@@ -2336,7 +2966,10 @@
   "batch": "v3h",
   "oos_return_bps": -603.93,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v5_eth_possprd2_92_p6_nt",
@@ -2344,7 +2977,9 @@
   "batch": "v5",
   "oos_return_bps": -612.31,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_30_90_ridehi_72",
@@ -2352,49 +2987,63 @@
   "batch": "v3h",
   "oos_return_bps": -614.72,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "fng_dca_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": -624.84,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_dca_btc_v6",
   "domain": "btc_usdc",
   "oos_return_bps": -626.27,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "monday_drift_sol_v7",
   "domain": "sol_usdc",
   "oos_return_bps": -629.29,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "cross_regime_eth_v6",
   "domain": "eth_usdc",
   "oos_return_bps": -632.12,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_gate_mom_eth_v9",
   "domain": "eth_usdc",
   "oos_return_bps": -633.4,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "streak_revert_btc_v3",
   "domain": "btc_usdc",
   "oos_return_bps": -636.41,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v3h_sol_fund_60_90_ridehi_24",
@@ -2402,7 +3051,9 @@
   "batch": "v3h",
   "oos_return_bps": -646.81,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_btc_takermom_13_6",
@@ -2410,14 +3061,18 @@
   "batch": "v6",
   "oos_return_bps": -656.99,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "fng_dca_btc_v2",
   "domain": "btc_usdc",
   "oos_return_bps": -668.51,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_sol_oidiv_144_100_fade",
@@ -2425,7 +3080,9 @@
   "batch": "v4",
   "oos_return_bps": -672.41,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_possprd_fade_90_8",
@@ -2433,7 +3090,9 @@
   "batch": "v4",
   "oos_return_bps": -687.59,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_eth_possprd2_92_p6_tg",
@@ -2441,7 +3100,9 @@
   "batch": "v5",
   "oos_return_bps": -697.73,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_takerx_ride_95_4",
@@ -2449,21 +3110,27 @@
   "batch": "v4",
   "oos_return_bps": -700.82,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "crash_recovery_sol_v6",
   "domain": "sol_usdc",
   "oos_return_bps": -702.93,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_collapse_eth",
   "domain": "eth_usdc",
   "oos_return_bps": -749.62,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_eth_possprd_fade_90_24",
@@ -2471,14 +3138,18 @@
   "batch": "v4",
   "oos_return_bps": -750.91,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "vol_collapse_eth_v6",
   "domain": "eth_usdc",
   "oos_return_bps": -750.92,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v2_btcdom_drev_144_200_core",
@@ -2486,7 +3157,9 @@
   "batch": "v2",
   "oos_return_bps": -751.95,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6b_btc_conflS_90_110_probe",
@@ -2494,35 +3167,45 @@
   "batch": "v6b",
   "oos_return_bps": -758.72,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "vol_collapse_eth_v2",
   "domain": "eth_usdc",
   "oos_return_bps": -776.59,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "cross_regime_eth",
   "domain": "eth_usdc",
   "oos_return_bps": -778.62,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "cross_regime_eth_v8",
   "domain": "eth_usdc",
   "oos_return_bps": -793.25,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_mom_btc",
   "domain": "btc_usdc",
   "oos_return_bps": -804.1,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v6_btc_takermom_16_3",
@@ -2530,35 +3213,45 @@
   "batch": "v6",
   "oos_return_bps": -805.42,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "rsi_div_eth",
   "domain": "eth_usdc",
   "oos_return_bps": -819.64,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_squeeze_btc",
   "domain": "btc_usdc",
   "oos_return_bps": -859.01,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_fade_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": -909.12,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_mom_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": -916.71,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_eth_takerx_ride_95_8",
@@ -2566,21 +3259,27 @@
   "batch": "v4",
   "oos_return_bps": -946.92,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "scalp_btclead_sol_v5",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": -960.93,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "pctb_fade_sol_v2",
   "domain": "sol_usdc",
   "oos_return_bps": -962.13,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v6_eth_oislope_con",
@@ -2588,21 +3287,27 @@
   "batch": "v6",
   "oos_return_bps": -990.71,
   "validation_score": 25.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "donchian_fade_eth",
   "domain": "eth_usdc",
   "oos_return_bps": -1006.62,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi_div_eth_v2",
   "domain": "eth_usdc",
   "oos_return_bps": -1058.47,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_eth_possprd_ride_95_8",
@@ -2610,14 +3315,18 @@
   "batch": "v4",
   "oos_return_bps": -1089.12,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "pctb_fade_sol_v5",
   "domain": "sol_usdc",
   "oos_return_bps": -1110.54,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v5_eth_possprd2_95_p6_tg",
@@ -2625,7 +3334,9 @@
   "batch": "v5",
   "oos_return_bps": -1130.43,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_eth_possprd2_95_p3_tg",
@@ -2633,7 +3344,9 @@
   "batch": "v5",
   "oos_return_bps": -1138.49,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_btc_oidivS_36_150",
@@ -2641,28 +3354,36 @@
   "batch": "v5",
   "oos_return_bps": -1152.79,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "fng_contrarian_btc_v5",
   "domain": "btc_usdc",
   "oos_return_bps": -1180.5,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_collapse_eth_v5",
   "domain": "eth_usdc",
   "oos_return_bps": -1185.44,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ema_pullback_eth_v2",
   "domain": "eth_usdc",
   "oos_return_bps": -1200.42,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v5_eth_possprd2_95_p6_nt",
@@ -2670,14 +3391,18 @@
   "batch": "v5",
   "oos_return_bps": -1205.6,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "vol_gate_mom_eth_v2",
   "domain": "eth_usdc",
   "oos_return_bps": -1459.33,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_btc_takerx_fade_95_8",
@@ -2685,7 +3410,9 @@
   "batch": "v4",
   "oos_return_bps": -1782.47,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_eth_possprd2_95_p3_nt",
@@ -2693,7 +3420,9 @@
   "batch": "v5",
   "oos_return_bps": -1784.34,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_possprd_fade_95_8",
@@ -2701,7 +3430,9 @@
   "batch": "v4",
   "oos_return_bps": -1799.45,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_possprd_ride_95_24",
@@ -2709,7 +3440,9 @@
   "batch": "v4",
   "oos_return_bps": -1862.6,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_takerx_fade_95_4",
@@ -2717,28 +3450,36 @@
   "batch": "v4",
   "oos_return_bps": -1989.77,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "vol_gate_mom_eth_v4",
   "domain": "eth_usdc",
   "oos_return_bps": -1998.84,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi_div_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": -2250.33,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_gate_mom_eth_v5",
   "domain": "eth_usdc",
   "oos_return_bps": -2461.93,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "v4_sol_takerx_fade_90_8",
@@ -2746,7 +3487,9 @@
   "batch": "v4",
   "oos_return_bps": -4168.7,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_30_95_fadelo_72",
@@ -2754,7 +3497,9 @@
   "batch": "v3d",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_30_95_fadelo_24",
@@ -2762,7 +3507,9 @@
   "batch": "v3d",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_60_90_fadelo_24",
@@ -2770,7 +3517,9 @@
   "batch": "v3d",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_60_90_fadelo_72",
@@ -2778,7 +3527,9 @@
   "batch": "v3d",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_60_95_fadelo_72",
@@ -2786,7 +3537,9 @@
   "batch": "v3d",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3d_btcdom_fund_60_95_fadelo_24",
@@ -2794,7 +3547,9 @@
   "batch": "v3d",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_30_90_fadehi_24",
@@ -2802,7 +3557,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_30_90_fadelo_72",
@@ -2810,7 +3567,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_30_90_fadelo_24",
@@ -2818,7 +3577,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_30_95_fadehi_72",
@@ -2826,7 +3587,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_60_90_fadelo_72",
@@ -2834,7 +3597,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_60_90_ridehi_24",
@@ -2842,7 +3607,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_60_90_ridehi_72",
@@ -2850,7 +3617,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_fund_60_95_fadehi_72",
@@ -2858,7 +3627,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_btc_wrc_40_3d_nf",
@@ -2866,7 +3637,10 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_eth_fund_30_90_fadehi_72",
@@ -2874,7 +3648,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_30_90_fadehi_24",
@@ -2882,7 +3658,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_30_90_fadelo_24",
@@ -2890,7 +3668,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_30_90_fadelo_72",
@@ -2898,7 +3678,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_30_95_fadehi_72",
@@ -2906,7 +3688,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_30_95_fadelo_72",
@@ -2914,7 +3698,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_30_95_fadelo_24",
@@ -2922,7 +3708,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_60_90_fadehi_24",
@@ -2930,7 +3718,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_60_90_fadehi_72",
@@ -2938,7 +3728,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_60_90_fadelo_24",
@@ -2946,7 +3738,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_60_90_fadelo_72",
@@ -2954,7 +3748,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_60_95_fadehi_24",
@@ -2962,7 +3758,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_60_95_fadehi_72",
@@ -2970,7 +3768,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_fund_60_95_fadelo_72",
@@ -2978,7 +3778,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_ovn_16_8",
@@ -2986,7 +3788,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_ovn_20_5",
@@ -2994,7 +3798,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_eth_tsmom_40_8_5d_both",
@@ -3002,7 +3808,10 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_eth_wrc_40_3d_nf",
@@ -3010,7 +3819,10 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v3h_sol_fund_30_90_fadehi_72",
@@ -3018,7 +3830,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_30_90_fadelo_24",
@@ -3026,7 +3840,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_30_90_fadelo_72",
@@ -3034,7 +3850,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_30_90_ridehi_24",
@@ -3042,7 +3860,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_30_95_fadehi_24",
@@ -3050,7 +3870,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_30_95_fadehi_72",
@@ -3058,7 +3880,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_30_95_fadelo_72",
@@ -3066,7 +3890,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_60_90_fadehi_24",
@@ -3074,7 +3900,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_60_90_fadehi_72",
@@ -3082,7 +3910,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_60_90_fadelo_24",
@@ -3090,7 +3920,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_60_90_fadelo_72",
@@ -3098,7 +3930,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_60_95_fadehi_24",
@@ -3106,7 +3940,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_60_95_fadehi_72",
@@ -3114,7 +3950,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_fund_60_95_fadelo_72",
@@ -3122,7 +3960,9 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v3h_sol_wrc_40_3d_nf",
@@ -3130,7 +3970,10 @@
   "batch": "v3h",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13",
+  "bar_cap_note": true
  },
  {
   "key": "v4_btc_capit_400_nf",
@@ -3138,7 +3981,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_capit_200_nf",
@@ -3146,7 +3991,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_oidiv_144_100_conf",
@@ -3154,7 +4001,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_oidiv_144_100_fade",
@@ -3162,7 +4011,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_oidiv_144_250_conf",
@@ -3170,7 +4021,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_oidiv_144_250_fade",
@@ -3178,7 +4031,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_possprd_fade_90_24",
@@ -3186,7 +4041,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_possprd_fade_90_8",
@@ -3194,7 +4051,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_possprd_fade_95_24",
@@ -3202,7 +4061,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_takerx_fade_90_4",
@@ -3210,7 +4071,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_takerx_fade_90_8",
@@ -3218,7 +4081,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_takerx_ride_90_8",
@@ -3226,7 +4091,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_takerx_ride_90_4",
@@ -3234,7 +4101,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_takerx_ride_95_4",
@@ -3242,7 +4111,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_btcoireg_150_24",
@@ -3250,7 +4121,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_btc_takerx_ride_95_8",
@@ -3258,7 +4131,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_capit_400_nf",
@@ -3266,7 +4141,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_oidiv_144_100_fade",
@@ -3274,7 +4151,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_oidiv_36_250_conf",
@@ -3282,7 +4161,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_oidiv_36_250_fade",
@@ -3290,7 +4171,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_possprd_fade_95_24",
@@ -3298,7 +4181,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_possprd_fade_95_8",
@@ -3306,7 +4191,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_takerx_fade_90_4",
@@ -3314,7 +4201,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_takerx_fade_90_8",
@@ -3322,7 +4211,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_takerx_fade_95_4",
@@ -3330,7 +4221,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_takerx_fade_95_8",
@@ -3338,7 +4231,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_eth_takerx_ride_90_8",
@@ -3346,7 +4241,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_btcoireg_150_8",
@@ -3354,7 +4251,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_capit_200_fg",
@@ -3362,7 +4261,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_capit_200_nf",
@@ -3370,7 +4271,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_capit_400_fg",
@@ -3378,7 +4281,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_capit_400_nf",
@@ -3386,7 +4291,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_oidiv_144_100_conf",
@@ -3394,7 +4301,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_oidiv_144_250_fade",
@@ -3402,7 +4311,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_oidiv_36_100_fade",
@@ -3410,7 +4321,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_oidiv_36_250_conf",
@@ -3418,7 +4331,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_possprd_fade_90_24",
@@ -3426,7 +4341,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_possprd_fade_90_8",
@@ -3434,7 +4351,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_possprd_fade_95_24",
@@ -3442,7 +4361,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_possprd_fade_95_8",
@@ -3450,7 +4371,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_possprd_ride_90_8",
@@ -3458,7 +4381,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_takerx_fade_90_4",
@@ -3466,7 +4391,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_takerx_fade_95_4",
@@ -3474,7 +4401,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_takerx_fade_95_8",
@@ -3482,7 +4411,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_takerx_ride_90_4",
@@ -3490,7 +4421,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_takerx_ride_90_8",
@@ -3498,7 +4431,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_takerx_ride_95_4",
@@ -3506,7 +4441,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v4_sol_takerx_ride_95_8",
@@ -3514,7 +4451,9 @@
   "batch": "v4",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_btc_capitP_200",
@@ -3522,7 +4461,9 @@
   "batch": "v5",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_btc_capitP_400",
@@ -3530,7 +4471,9 @@
   "batch": "v5",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_eth_capitP_200",
@@ -3538,7 +4481,9 @@
   "batch": "v5",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_sol_capitP_200",
@@ -3546,7 +4491,9 @@
   "batch": "v5",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_sol_capitP_400",
@@ -3554,7 +4501,9 @@
   "batch": "v5",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_sol_oidivT_72_150",
@@ -3562,7 +4511,9 @@
   "batch": "v5",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v5_sol_oidivT_72_250",
@@ -3570,7 +4521,9 @@
   "batch": "v5",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_btc_oislope_exp",
@@ -3578,7 +4531,9 @@
   "batch": "v6",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_eth_confl_88_110",
@@ -3586,7 +4541,9 @@
   "batch": "v6",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_eth_confl_88_130",
@@ -3594,7 +4551,9 @@
   "batch": "v6",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_eth_confl_90_130",
@@ -3602,7 +4561,9 @@
   "batch": "v6",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_eth_oislope_exp",
@@ -3610,7 +4571,9 @@
   "batch": "v6",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_eth_oisq_90",
@@ -3618,7 +4581,9 @@
   "batch": "v6",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_eth_takermom_16_3",
@@ -3626,7 +4591,9 @@
   "batch": "v6",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_sol_oislope_con",
@@ -3634,7 +4601,9 @@
   "batch": "v6",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_sol_oislope_exp",
@@ -3642,7 +4611,9 @@
   "batch": "v6",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_sol_oisq_90",
@@ -3650,7 +4621,9 @@
   "batch": "v6",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_sol_oisq_95",
@@ -3658,7 +4631,9 @@
   "batch": "v6",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6_sol_takermom_16_3",
@@ -3666,7 +4641,9 @@
   "batch": "v6",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6b_eth_conflL_88_110",
@@ -3674,7 +4651,9 @@
   "batch": "v6b",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "v6b_eth_conflL_90_110",
@@ -3682,1889 +4661,2429 @@
   "batch": "v6b",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-13"
  },
  {
   "key": "accel_mom_sol",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "accel_mom_sol_v2",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "accel_mom_sol_v5",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "accel_mom_sol_v6",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "accel_mom_sol_v7",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "accel_mom_sol_v8",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "accel_mom_sol_v9",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "asia_drift_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "atr_exp_btc",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "atr_exp_btc_v2",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "atr_exp_btc_v3",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "atr_exp_btc_v5",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "atr_exp_btc_v6",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "atr_exp_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "atr_exp_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "atr_exp_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "bb_squeeze_sol",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "bb_squeeze_sol_v2",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "bb_squeeze_sol_v3",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "bb_squeeze_sol_v4",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "bb_squeeze_sol_v5",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "bb_squeeze_sol_v6",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "bb_squeeze_sol_v7",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "bb_squeeze_sol_v8",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "bb_squeeze_sol_v9",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "book_imb_mom_btc",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "book_imb_mom_btc_v2",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "book_imb_mom_btc_v3",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "book_imb_mom_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "book_imb_mom_btc_v5",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "book_imb_mom_btc_v6",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "book_imb_mom_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "book_imb_mom_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "book_imb_mom_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "btc_lead_sol",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "btc_lead_sol_v2",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "btc_lead_sol_v3",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "btc_lead_sol_v4",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "btc_lead_sol_v5",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "btc_lead_sol_v6",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "btc_lead_sol_v8",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "btc_lead_sol_v9",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "calm_grind_btc_v2",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "calm_grind_btc_v3",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "calm_grind_btc_v6",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "calm_grind_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "calm_grind_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "confluence_long_eth_v5",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "confluence_long_eth_v9",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "crash_recovery_eth",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "crash_recovery_sol_v2",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "crash_recovery_sol_v7",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "cross_regime_eth_v2",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "cross_regime_eth_v5",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "cross_regime_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_fade_eth_v2",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_fade_eth_v4",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_fade_eth_v6",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_fade_eth_v8",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_fade_eth_v9",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_vol_btc",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_vol_btc_v2",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_vol_btc_v3",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_vol_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_vol_btc_v6",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_vol_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_vol_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "donchian_vol_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ema_pullback_eth",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ema_pullback_eth_v4",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ema_pullback_eth_v8",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_contrarian_btc_v2",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_contrarian_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_contrarian_btc_v6",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_contrarian_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_contrarian_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_dca_btc_v5",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_mom_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_mom_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_pullback_sol_v3",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_pullback_sol_v4",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_pullback_sol_v7",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_pullback_sol_v8",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_streak_sol",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_streak_sol_v2",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_streak_sol_v3",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_streak_sol_v5",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_streak_sol_v6",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "fng_streak_sol_v7",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_carry_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_carry_btc_v5",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_carry_btc_v6",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_carry_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_carry_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_fade_eth_v4",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_flip_eth",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_flip_eth_v5",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_flip_eth_v6",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_flip_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_flip_eth_v8",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_flip_eth_v9",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_squeeze_btc_v2",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_squeeze_btc_v3",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_squeeze_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_squeeze_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "funding_squeeze_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "gap_fade_btc",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "gap_fade_btc_v2",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "gap_fade_btc_v3",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "gap_fade_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "gap_fade_btc_v5",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "gap_fade_btc_v6",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "gap_fade_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "gap_fade_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "higher_low_eth",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "higher_low_eth_v2",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "higher_low_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "higher_low_eth_v4",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "higher_low_eth_v5",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "higher_low_eth_v6",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "higher_low_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "higher_low_eth_v8",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "higher_low_eth_v9",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "liq_cascade_sol_v2",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "liq_cascade_sol_v3",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "liq_cascade_sol_v7",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "liq_cascade_sol_v8",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "liq_cascade_sol_v9",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "lowvol_mom_btc",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "lowvol_mom_btc_v2",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "lowvol_mom_btc_v3",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "lowvol_mom_btc_v5",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "lowvol_mom_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "lowvol_mom_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "monday_drift_sol",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "monday_drift_sol_v3",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "pctb_fade_sol_v4",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "pctb_fade_sol_v7",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "pctb_fade_sol_v8",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "pctb_fade_sol_v9",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rel_strength_eth_v5",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rel_strength_eth_v6",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rel_strength_eth_v8",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ribbon_trend_sol",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ribbon_trend_sol_v2",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ribbon_trend_sol_v3",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ribbon_trend_sol_v4",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ribbon_trend_sol_v5",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ribbon_trend_sol_v6",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ribbon_trend_sol_v8",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "ribbon_trend_sol_v9",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi2_revert_eth",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi2_revert_eth_v2",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi2_revert_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi2_revert_eth_v4",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi2_revert_eth_v5",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi2_revert_eth_v6",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi2_revert_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi2_revert_eth_v8",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi2_revert_eth_v9",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi_revert_sol",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi_revert_sol_v2",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi_revert_sol_v4",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi_revert_sol_v5",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi_revert_sol_v6",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi_revert_sol_v7",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi_revert_sol_v8",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "rsi_revert_sol_v9",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_btclead_sol",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_btclead_sol_v2",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_btclead_sol_v7",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_btclead_sol_v8",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_ema513_eth",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_ema513_eth_v2",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_ema513_eth_v8",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_funding_eth_v6",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_funding_eth_v7",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_funding_eth_v9",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_mom_pull_eth",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_mom_pull_eth_v2",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_mom_pull_eth_v4",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_mom_pull_eth_v5",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_mom_pull_eth_v6",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_mom_pull_eth_v8",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_mom_pull_eth_v9",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_range_sol",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_range_sol_v4",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_range_sol_v7",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_range_sol_v9",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_rsi7_btc",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_rsi7_btc_v2",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": null,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_rsi7_btc_v3",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_rsi7_btc_v4",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_rsi7_btc_v5",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_rsi7_btc_v6",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_rsi7_btc_v7",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_rsi7_btc_v8",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_rsi7_btc_v9",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_stoch_eth",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_stoch_eth_v2",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_stoch_eth_v3",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_stoch_eth_v4",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_stoch_eth_v5",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": null,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_stoch_eth_v6",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_stoch_eth_v7",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_stoch_eth_v8",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_stoch_eth_v9",
   "domain": "eth_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_volburst_btc_v2",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_volburst_btc_v3",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_volburst_btc_v4",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_volburst_btc_v6",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_volburst_btc_v8",
   "domain": "btc_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_vwap_sol",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_vwap_sol_v2",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_vwap_sol_v3",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_vwap_sol_v5",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_vwap_sol_v6",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_vwap_sol_v7",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_vwap_sol_v8",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "scalp_vwap_sol_v9",
   "domain": "sol_usdc_scalp",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "sol_eth_lead_sol",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "sol_eth_lead_sol_v2",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "sol_eth_lead_sol_v3",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "sol_eth_lead_sol_v4",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "sol_eth_lead_sol_v5",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "sol_eth_lead_sol_v7",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "sol_eth_lead_sol_v8",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "sol_eth_lead_sol_v9",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "streak_revert_btc",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "streak_revert_btc_v2",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "streak_revert_btc_v5",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "streak_revert_btc_v6",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "streak_revert_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "triple_touch_eth_v2",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "triple_touch_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "triple_touch_eth_v4",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "triple_touch_eth_v5",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "triple_touch_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "triple_touch_eth_v8",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "triple_touch_eth_v9",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "us_session_mom_btc_v3",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "us_session_mom_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "us_session_mom_btc_v5",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_burst_sol_v3",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_burst_sol_v4",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_burst_sol_v5",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_burst_sol_v6",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_burst_sol_v7",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_burst_sol_v9",
   "domain": "sol_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_collapse_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_gate_mom_eth",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_gate_mom_eth_v6",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "vol_gate_mom_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "weekend_season_eth",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "weekend_season_eth_v2",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "weekend_season_eth_v3",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "weekend_season_eth_v4",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "weekend_season_eth_v6",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "weekend_season_eth_v7",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "weekend_season_eth_v9",
   "domain": "eth_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "zscore_fade_btc",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "zscore_fade_btc_v2",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "zscore_fade_btc_v3",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "zscore_fade_btc_v4",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "zscore_fade_btc_v5",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "zscore_fade_btc_v6",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "zscore_fade_btc_v7",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "zscore_fade_btc_v8",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 5.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  },
  {
   "key": "zscore_fade_btc_v9",
   "domain": "btc_usdc",
   "oos_return_bps": null,
   "validation_score": 12.0,
-  "status": "rejected"
+  "status": "rejected",
+  "judge_version": "v1",
+  "screened_at": "2026-10-09"
  }
 ]
