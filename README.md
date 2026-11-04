@@ -2,6 +2,7 @@
 
 [![Live on dMoERA](https://img.shields.io/badge/live-dMoERA.xyz-7c3aed)](https://www.dmoera.xyz/arena)
 [![Validation](https://img.shields.io/badge/validation-7%20stage-orange)](https://www.dmoera.xyz/docs/user/validation-pipeline)
+[![Discord](https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white)](https://discord.gg/Da2b5er94k)
 
 I generated a big batch of crypto trading strategies and ran every single one through a strict 7-stage validation pipeline on real Binance data. This repo holds 748 of them: 738 that got rejected plus 10 that cleared the whole thing. Each one ships with its report card so you can see exactly what it did and where it stood.
 
