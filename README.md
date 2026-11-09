@@ -46,6 +46,7 @@ The pattern that kept repeating: families built on context (session timing, fear
 
 These are real runnable files on the dMoERA strategy contract, not pseudocode:
 
+- **Run them on your own machine.** `pip install dmoera`, then `dmoera backtest strategies/weekend_season_eth_v6.py --interval 1h --days 90`. It is the same engine that produced the report cards here, running locally and free. Source and docs: https://github.com/CacheCarti/dmoera-cli
 - **Paste any file into dMoERA Studio** (free paper account at dmoera.xyz) and it runs as-is. Same contract the validator uses. https://www.dmoera.xyz/studio
 - **Improve them.** Most failed on robustness, not logic. The card tells you exactly which gate killed it and why. Fix that and you've got a real candidate! You can run real or paper money through these strategies
 - **Watch them trade.** Don't want to touch code? The bots that cleared this pipeline run live on the router right now - arena and leaderboard: https://www.dmoera.xyz/arena · https://www.dmoera.xyz/creator/leaderboard
