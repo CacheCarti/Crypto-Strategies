@@ -1,0 +1,115 @@
+from domains.strategy_contract import Strategy, BarContext, Signal
+from typing import Optional, Dict, Any
+import math
+
+class EthBtcSpreadMeanReversion(Strategy):
+    METADATA = {
+        "name": "EthBtcSpreadMeanReversion",
+        "domain": "eth_usdc",
+        "declared_sl_bps": 250.0,
+        "declared_tp_bps": 380.0,
+        "declared_hold_seconds": 14400,
+        "warmup_bars": 40,
+        "required_features": ["btc_return_pct", "eth_return_pct"],
+    }
+
+    def initialize(self, ctx: BarContext) -> None:
+        self.cooldown_bars = 6
+        self.last_exit_bar = -100
+        self.spread_threshold = 2.4
+        self.rsi_period = 14
+
+    def _rsi(self, closes, period=14):
+        if len(closes) < period + 1:
+            return 50.0
+        gains, losses = 0.0, 0.0
+        for i in range(1, period + 1):
+            diff = closes[-i] - closes[-i - 1]
+            if diff > 0:
+                gains += diff
+            else:
+                losses -= diff
+        avg_gain = gains / period
+        avg_loss = losses / period
+        if avg_loss == 0.0:
+            return 100.0
+        rs = avg_gain / avg_loss
+        return 100.0 - (100.0 / (1.0 + rs))
+
+    def on_position_close(self, ctx: BarContext, position: Dict[str, Any]) -> None:
+        self.last_exit_bar = ctx.bar_index
+
+    def on_bar(self, ctx: BarContext) -> Optional[Signal]:
+        closes = ctx.closes(self.METADATA["warmup_bars"])
+        if len(closes) < self.METADATA["warmup_bars"]:
+            return None
+
+        # Check explicit event cooldown
+        if (ctx.bar_index - self.last_exit_bar) < self.cooldown_bars:
+            return None
+
+        btc_ret = ctx.features.get("btc_return_pct", 0.0)
+        eth_ret = ctx.features.get("eth_return_pct", 0.0)
+        spread = eth_ret - btc_ret  # Positive when ETH outpaces BTC, negative when ETH lags
+
+        # Prevent trading in extreme macro crisis
+        regime = ctx.market.get("regime", "NORMAL")
+        if regime in ("CRISIS", "MELTDOWN"):
+            return None
+
+        rsi = self._rsi(closes, self.rsi_period)
+
+        # If already holding a position, check for spread normalization to exit
+        if ctx.has_position():
+            pos_dir = ctx.position_direction()
+            if pos_dir == "long" and spread >= -0.2:
+                return ctx.signal(
+                    "flat",
+                    confidence=0.6,
+                    metadata={"reason": "spread_normalized_long_exit", "spread": spread, "rsi": rsi}
+                )
+            elif pos_dir == "short" and spread <= 0.2:
+                return ctx.signal(
+                    "flat",
+                    confidence=0.6,
+                    metadata={"reason": "spread_normalized_short_exit", "spread": spread, "rsi": rsi}
+                )
+            return None
+
+        # Event: ETH severely lags BTC (spread <= -threshold) and ETH is not overbought -> Catch-up Long
+        if spread <= -self.spread_threshold and rsi < 58.0:
+            conf = min(0.9, 0.55 + (abs(spread) - self.spread_threshold) * 0.1)
+            return ctx.signal(
+                "long",
+                confidence=conf,
+                stop_loss_bps=self.METADATA["declared_sl_bps"],
+                take_profit_bps=self.METADATA["declared_tp_bps"],
+                horizon_seconds=self.METADATA["declared_hold_seconds"],
+                metadata={
+                    "reason": "eth_lag_catchup_long",
+                    "spread": spread,
+                    "btc_ret": btc_ret,
+                    "eth_ret": eth_ret,
+                    "rsi": rsi,
+                }
+            )
+
+        # Event: ETH drastically outruns BTC (spread >= threshold) and ETH is not oversold -> Mean-reversion Short
+        if spread >= self.spread_threshold and rsi > 42.0:
+            conf = min(0.9, 0.55 + (spread - self.spread_threshold) * 0.1)
+            return ctx.signal(
+                "short",
+                confidence=conf,
+                stop_loss_bps=self.METADATA["declared_sl_bps"],
+                take_profit_bps=self.METADATA["declared_tp_bps"],
+                horizon_seconds=self.METADATA["declared_hold_seconds"],
+                metadata={
+                    "reason": "eth_outrun_reversion_short",
+                    "spread": spread,
+                    "btc_ret": btc_ret,
+                    "eth_ret": eth_ret,
+                    "rsi": rsi,
+                }
+            )
+
+        return None

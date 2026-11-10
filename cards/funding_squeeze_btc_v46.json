@@ -1,0 +1,42 @@
+{
+ "key": "funding_squeeze_btc_v46",
+ "name": "BTC Funding Squeeze",
+ "family": "funding_squeeze_btc",
+ "batch": "adaptive2k",
+ "generation_bucket": "exploit",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "result_class": "oos_reject",
+ "admission_tier": "reject",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": false,
+  "walk_forward": null,
+  "randomized_start": null,
+  "perturbation": null,
+  "holdout": null
+ },
+ "failed_requirements": [
+  "stages<6",
+  "oos_not_passed",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": -134.85,
+  "win_rate": 0.5,
+  "sharpe": -0.9673,
+  "max_drawdown_bps": 128.93,
+  "total_trades": 4
+ },
+ "reason": "Out-of-sample failed",
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-10",
+ "batch_size": 2000,
+ "batch_admits": 6
+}

@@ -1,0 +1,40 @@
+{
+ "key": "session_europe_gap_btc",
+ "name": "BTC Europe Gap Fill",
+ "family": "session_europe_gap_btc",
+ "batch": "adaptive2k",
+ "generation_bucket": "explore",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "result_class": "holdout_reject",
+ "admission_tier": "reject",
+ "validation_score": 75.0,
+ "stages_passed": 6,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": true,
+  "randomized_start": true,
+  "perturbation": true,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": 115.23,
+  "win_rate": 0.6,
+  "sharpe": 0.583,
+  "max_drawdown_bps": 72.01,
+  "total_trades": 10
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-10",
+ "batch_size": 2000,
+ "batch_admits": 6
+}

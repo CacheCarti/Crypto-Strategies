@@ -1,0 +1,42 @@
+{
+ "key": "rsi_div_eth_v62",
+ "name": "ETH RSI Divergence",
+ "family": "rsi_div_eth",
+ "batch": "adaptive2k",
+ "generation_bucket": "exploit",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "result_class": "oos_reject",
+ "admission_tier": "reject",
+ "validation_score": 55.0,
+ "stages_passed": 5,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": false,
+  "walk_forward": true,
+  "randomized_start": true,
+  "perturbation": true,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "stages<6",
+  "oos_not_passed",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": -297.3,
+  "win_rate": 0.4865,
+  "sharpe": -0.443,
+  "max_drawdown_bps": 506.58,
+  "total_trades": 37
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-10",
+ "batch_size": 2000,
+ "batch_admits": 6
+}

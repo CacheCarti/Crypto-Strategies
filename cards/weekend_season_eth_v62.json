@@ -1,0 +1,40 @@
+{
+ "key": "weekend_season_eth_v62",
+ "name": "ETH Weekend Seasonality",
+ "family": "weekend_season_eth",
+ "batch": "adaptive2k",
+ "generation_bucket": "exploit",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "result_class": "holdout_reject",
+ "admission_tier": "reject",
+ "validation_score": 75.0,
+ "stages_passed": 6,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": true,
+  "randomized_start": true,
+  "perturbation": true,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": 730.89,
+  "win_rate": 0.8333,
+  "sharpe": 2.2625,
+  "max_drawdown_bps": 26.91,
+  "total_trades": 6
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-10",
+ "batch_size": 2000,
+ "batch_admits": 6
+}

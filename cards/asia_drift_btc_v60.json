@@ -1,0 +1,41 @@
+{
+ "key": "asia_drift_btc_v60",
+ "name": "BTC Asia-Session Drift",
+ "family": "asia_drift_btc",
+ "batch": "adaptive2k",
+ "generation_bucket": "exploit",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "result_class": "oos_reject",
+ "admission_tier": "reject",
+ "validation_score": 95.0,
+ "stages_passed": 4,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": false,
+  "walk_forward": true,
+  "randomized_start": false,
+  "perturbation": false,
+  "holdout": true
+ },
+ "failed_requirements": [
+  "stages<6",
+  "oos_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": 45.28,
+  "win_rate": 0.3478,
+  "sharpe": 0.0659,
+  "max_drawdown_bps": 285.73,
+  "total_trades": 23
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-10",
+ "batch_size": 2000,
+ "batch_admits": 6
+}

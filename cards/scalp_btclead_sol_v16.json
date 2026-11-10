@@ -1,0 +1,41 @@
+{
+ "key": "scalp_btclead_sol_v16",
+ "name": "SOL Scalp BTC-Lead",
+ "family": "scalp_btclead_sol",
+ "batch": "adaptive2k",
+ "generation_bucket": "exploit",
+ "domain": "sol_usdc_scalp",
+ "status": "rejected",
+ "result_class": "robustness_reject",
+ "admission_tier": "reject",
+ "validation_score": 25.0,
+ "stages_passed": 3,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": false,
+  "randomized_start": false,
+  "perturbation": false,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "stages<6",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": 66.16,
+  "win_rate": 0.5455,
+  "sharpe": 0.2877,
+  "max_drawdown_bps": 89.77,
+  "total_trades": 11
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-10",
+ "batch_size": 2000,
+ "batch_admits": 6
+}

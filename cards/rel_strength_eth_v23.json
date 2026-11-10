@@ -1,0 +1,41 @@
+{
+ "key": "rel_strength_eth_v23",
+ "name": "ETH Relative Strength Rotation",
+ "family": "rel_strength_eth",
+ "batch": "adaptive2k",
+ "generation_bucket": "exploit",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "result_class": "robustness_reject",
+ "admission_tier": "reject",
+ "validation_score": 55.0,
+ "stages_passed": 5,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": true,
+  "randomized_start": true,
+  "perturbation": false,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "stages<6",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": 398.07,
+  "win_rate": 0.7143,
+  "sharpe": 0.8868,
+  "max_drawdown_bps": 186.79,
+  "total_trades": 7
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-10",
+ "batch_size": 2000,
+ "batch_admits": 6
+}

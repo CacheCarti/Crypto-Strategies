@@ -1,7 +1,6 @@
 {
  "key": "book_imb_mom_btc_v5",
  "domain": "btc_usdc",
- "status": "rejected",
  "validation_score": 5.0,
  "stages_passed": 1,
  "failed_stage": null,
@@ -47,5 +46,9 @@
   }
  },
  "judge_version": "v1",
- "screened_at": "2026-10-09"
+ "screened_at": "2026-10-09",
+ "current_verdict": "rejected_strict01",
+ "passed_v1_judge": "rejected",
+ "batch_size": 416,
+ "batch_admits": 10
 }

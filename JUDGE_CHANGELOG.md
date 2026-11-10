@@ -40,3 +40,19 @@ under v2+.
   which shifts their trade paths. Roughly 1,400 strategies across the full
   corpus emit `flat`; a parity spot-check of 5 random bots found the
   flat-emitters dying earlier under v3, exactly as expected.
+
+## Placebo calibration (measured, not assumed)
+
+A standing question on every drop thread: "how do I know your screen
+isn't just admitting noise?" Measured answer, run twice:
+
+- 500 placebo bots: random-entry strategies, fingerprint-matched to
+  the real batches (same trade frequency, holding times, direction
+  mix), pushed through the identical 7-stage screen and gates.
+- gates_v15: 0 / 500 passed.
+- gates_v17: 0 / 500 passed. (Target: max 5% false-admit rate.)
+- For comparison, naive thresholding of a t-stat with no trial
+  correction admits roughly 5% of pure noise.
+
+Policy: the placebo batch is re-run after every gate change, so the
+false-admit number above always reflects the current judge.

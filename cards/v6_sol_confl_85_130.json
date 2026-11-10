@@ -4,7 +4,6 @@
  "family": "v6_sol_confl_85_130",
  "batch": "v6",
  "domain": "sol_usdc",
- "status": "rejected",
  "result_class": "robustness_reject",
  "admission_tier": "reject",
  "validation_score": 95.0,
@@ -33,5 +32,10 @@
  "reason": null,
  "run_in_studio": "https://www.dmoera.xyz/studio",
  "judge_version": "v1",
- "screened_at": "2026-10-13"
+ "screened_at": "2026-10-13",
+ "current_verdict": "rejected_v1",
+ "passed_v1_judge": "rejected",
+ "batch_size": 60,
+ "batch_admits": 18,
+ "neighbor_note": "12 of this batch's 18 admits are v6_sol_confl parameter neighbors - treat them as closer to one finding than 12 independent results."
 }

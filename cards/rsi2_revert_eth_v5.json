@@ -1,7 +1,6 @@
 {
  "key": "rsi2_revert_eth_v5",
  "domain": "eth_usdc",
- "status": "rejected",
  "validation_score": 12.0,
  "stages_passed": 2,
  "failed_stage": null,
@@ -58,5 +57,9 @@
   }
  },
  "judge_version": "v1",
- "screened_at": "2026-10-09"
+ "screened_at": "2026-10-09",
+ "current_verdict": "rejected_strict02",
+ "passed_v1_judge": "rejected",
+ "batch_size": 416,
+ "batch_admits": 10
 }

@@ -1,0 +1,42 @@
+{
+ "key": "donchian_fade_eth_v22",
+ "name": "ETH Failed-Breakout Fade",
+ "family": "donchian_fade_eth",
+ "batch": "adaptive2k",
+ "generation_bucket": "exploit",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "result_class": "oos_reject",
+ "admission_tier": "reject",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": false,
+  "walk_forward": null,
+  "randomized_start": null,
+  "perturbation": null,
+  "holdout": null
+ },
+ "failed_requirements": [
+  "stages<6",
+  "oos_not_passed",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": -2106.45,
+  "win_rate": 0.4238,
+  "sharpe": -2.3657,
+  "max_drawdown_bps": 1560.08,
+  "total_trades": 210
+ },
+ "reason": "Out-of-sample failed",
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-10",
+ "batch_size": 2000,
+ "batch_admits": 6
+}

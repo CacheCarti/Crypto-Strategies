@@ -4,7 +4,6 @@
  "family": "v5_sol_possprd2_92_p3_nt",
  "batch": "v5",
  "domain": "sol_usdc",
- "status": "rejected",
  "result_class": "robustness_reject",
  "admission_tier": "reject",
  "validation_score": 95.0,
@@ -33,5 +32,10 @@
  "reason": null,
  "run_in_studio": "https://www.dmoera.xyz/studio",
  "judge_version": "v1",
- "screened_at": "2026-10-13"
+ "screened_at": "2026-10-13",
+ "current_verdict": "rejected_v1",
+ "passed_v1_judge": "rejected",
+ "batch_size": 52,
+ "batch_admits": 17,
+ "neighbor_note": "7 of this batch's 17 admits are v5_sol_possprd2 parameter neighbors - treat them as closer to one finding than 7 independent results."
 }

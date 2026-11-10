@@ -1,0 +1,41 @@
+{
+ "key": "session_asia_drift_eth_w51",
+ "name": "ETH Asia Continuation",
+ "family": "session_asia_drift_eth_wild",
+ "batch": "adaptive2k",
+ "generation_bucket": "wildcard",
+ "domain": "eth_usdc",
+ "status": "rejected",
+ "result_class": "robustness_reject",
+ "admission_tier": "reject",
+ "validation_score": 55.0,
+ "stages_passed": 5,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": true,
+  "randomized_start": true,
+  "perturbation": false,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "stages<6",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": 144.84,
+  "win_rate": 0.8,
+  "sharpe": 1.5072,
+  "max_drawdown_bps": 34.24,
+  "total_trades": 10
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-10",
+ "batch_size": 2000,
+ "batch_admits": 6
+}

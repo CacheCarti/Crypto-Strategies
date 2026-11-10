@@ -1,0 +1,42 @@
+{
+ "key": "fng_mom_btc_v18",
+ "name": "BTC Fear-Momentum Hybrid",
+ "family": "fng_mom_btc",
+ "batch": "adaptive2k",
+ "generation_bucket": "exploit",
+ "domain": "btc_usdc",
+ "status": "rejected",
+ "result_class": "oos_reject",
+ "admission_tier": "reject",
+ "validation_score": 12.0,
+ "stages_passed": 2,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": false,
+  "walk_forward": null,
+  "randomized_start": null,
+  "perturbation": null,
+  "holdout": null
+ },
+ "failed_requirements": [
+  "stages<6",
+  "oos_not_passed",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": -998.8,
+  "win_rate": 0.379,
+  "sharpe": -0.9222,
+  "max_drawdown_bps": 980.69,
+  "total_trades": 124
+ },
+ "reason": "Out-of-sample failed",
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-10",
+ "batch_size": 2000,
+ "batch_admits": 6
+}

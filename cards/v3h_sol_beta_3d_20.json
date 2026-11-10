@@ -4,7 +4,6 @@
  "family": "v3h_sol_beta_3d_20",
  "batch": "v3h",
  "domain": "sol_usdc",
- "status": "rejected",
  "result_class": "robustness_reject",
  "admission_tier": "reject",
  "validation_score": 95.0,
@@ -34,5 +33,9 @@
  "run_in_studio": "https://www.dmoera.xyz/studio",
  "judge_version": "v1",
  "screened_at": "2026-10-13",
- "bar_cap_note": "needs 2316 bars of history to produce its first signal; the judge now caps ctx.bars at 1000 bars (live parity), so under judge v2+ this bot cannot run as-is. Its v1 card above was judged before the cap."
+ "bar_cap_note": "needs 2316 bars of history to produce its first signal; the judge now caps ctx.bars at 1000 bars (live parity), so under judge v2+ this bot cannot run as-is. Its v1 card above was judged before the cap.",
+ "current_verdict": "rejected_v1",
+ "passed_v1_judge": "rejected",
+ "batch_size": 96,
+ "batch_admits": 0
 }

@@ -1,0 +1,42 @@
+{
+ "key": "fng_pullback_sol_v44",
+ "name": "SOL Sentiment-Gated Pullback",
+ "family": "fng_pullback_sol",
+ "batch": "adaptive2k",
+ "generation_bucket": "exploit",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "result_class": "oos_reject",
+ "admission_tier": "reject",
+ "validation_score": 40.0,
+ "stages_passed": 4,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": false,
+  "walk_forward": true,
+  "randomized_start": true,
+  "perturbation": false,
+  "holdout": false
+ },
+ "failed_requirements": [
+  "stages<6",
+  "oos_not_passed",
+  "holdout_not_passed"
+ ],
+ "oos": {
+  "total_return_bps": -258.8,
+  "win_rate": 0.4242,
+  "sharpe": -0.3072,
+  "max_drawdown_bps": 753.01,
+  "total_trades": 33
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-10",
+ "batch_size": 2000,
+ "batch_admits": 6
+}

@@ -4,7 +4,6 @@
  "family": "v3h_sol_fund_30_90_fadehi_72",
  "batch": "v3h",
  "domain": "sol_usdc",
- "status": "rejected",
  "result_class": "in_sample_reject",
  "admission_tier": "reject",
  "validation_score": 5.0,
@@ -35,5 +34,9 @@
  "reason": "In-sample failed",
  "run_in_studio": "https://www.dmoera.xyz/studio",
  "judge_version": "v1",
- "screened_at": "2026-10-13"
+ "screened_at": "2026-10-13",
+ "current_verdict": "rejected_v1",
+ "passed_v1_judge": "rejected",
+ "batch_size": 96,
+ "batch_admits": 0
 }

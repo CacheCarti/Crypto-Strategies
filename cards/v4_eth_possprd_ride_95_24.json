@@ -4,7 +4,6 @@
  "family": "v4_eth_possprd_ride_95_24",
  "batch": "v4",
  "domain": "eth_usdc",
- "status": "rejected",
  "result_class": "oos_reject",
  "admission_tier": "reject",
  "validation_score": 12.0,
@@ -35,5 +34,9 @@
  "reason": "Out-of-sample failed",
  "run_in_studio": "https://www.dmoera.xyz/studio",
  "judge_version": "v1",
- "screened_at": "2026-10-13"
+ "screened_at": "2026-10-13",
+ "current_verdict": "rejected_v1",
+ "passed_v1_judge": "rejected",
+ "batch_size": 92,
+ "batch_admits": 3
 }

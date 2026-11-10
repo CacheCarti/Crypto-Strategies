@@ -4,7 +4,6 @@
  "family": "v6_btc_confl_92_110",
  "batch": "v6",
  "domain": "btc_usdc",
- "status": "rejected",
  "result_class": "robustness_reject",
  "admission_tier": "reject",
  "validation_score": 95.0,
@@ -33,5 +32,9 @@
  "reason": null,
  "run_in_studio": "https://www.dmoera.xyz/studio",
  "judge_version": "v1",
- "screened_at": "2026-10-13"
+ "screened_at": "2026-10-13",
+ "current_verdict": "rejected_v1",
+ "passed_v1_judge": "rejected",
+ "batch_size": 60,
+ "batch_admits": 18
 }

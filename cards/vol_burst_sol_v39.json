@@ -1,0 +1,40 @@
+{
+ "key": "vol_burst_sol_v39",
+ "name": "SOL Volume Burst Momentum",
+ "family": "vol_burst_sol",
+ "batch": "adaptive2k",
+ "generation_bucket": "exploit",
+ "domain": "sol_usdc",
+ "status": "rejected",
+ "result_class": "robustness_reject",
+ "admission_tier": "reject",
+ "validation_score": 95.0,
+ "stages_passed": 5,
+ "stages_total": 7,
+ "failed_stage": null,
+ "stage_statuses": {
+  "static_check": true,
+  "in_sample": true,
+  "out_of_sample": true,
+  "walk_forward": true,
+  "randomized_start": false,
+  "perturbation": false,
+  "holdout": true
+ },
+ "failed_requirements": [
+  "stages<6"
+ ],
+ "oos": {
+  "total_return_bps": 328.03,
+  "win_rate": 0.55,
+  "sharpe": 0.4386,
+  "max_drawdown_bps": 337.12,
+  "total_trades": 60
+ },
+ "reason": null,
+ "run_in_studio": "https://www.dmoera.xyz/studio",
+ "judge_version": "v1",
+ "screened_at": "2026-10-10",
+ "batch_size": 2000,
+ "batch_admits": 6
+}
