@@ -51,9 +51,12 @@ Every file is real runnable Python on the dMoERA strategy contract (`Strategy`, 
 pip install dmoera
 dmoera backtest strategies/accel_mom_sol.py --symbol SOLUSDT --days 180
 dmoera validate strategies/v6_sol_confl_85_130.py
+dmoera battery strategies/weekend_season_eth_v22.py
 ```
 
-`dmoera backtest` runs any file in this repo on public Binance data; `dmoera validate` runs the 7-stage screen. You can also paste any file into a free paper account at [dmoera.xyz/studio](https://www.dmoera.xyz/studio).
+`dmoera backtest` runs any file in this repo on public Binance data; `dmoera validate` runs the 7-stage screen; `dmoera battery` runs the 6-gate deep battery on 6.25 years of 1h bars (the same battery that killed 363 hand-built bots, 211 of them net-positive). You can also paste any file into a free paper account at [dmoera.xyz/studio](https://www.dmoera.xyz/studio).
+
+Want an official verdict instead of a self-run one? `dmoera certify bot.py` runs the sealed exam on our servers - real thresholds, sealed holdout, your enforced attempt count - and issues a hash-bound certificate with a public verify page (no account needed to check it): the exact code, the window, the fee model, the deep-battery gates, all bound to one SHA-256.
 
 ## Near-misses worth fixing
 
